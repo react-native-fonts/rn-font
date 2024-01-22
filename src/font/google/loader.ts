@@ -1,15 +1,22 @@
+import { validateGoogleFont } from './validate-google-font';
+
 type FontLoaderProps<T> = {
-  functionName: string;
+  fontName: string;
   data: T;
 };
 
 type FontLoaderResult = Promise<{}>;
 
-export const nextFontGoogleFontLoader = async <T>({
-  functionName,
+export const googleFontLoader = async <T>({
+  fontName,
   data,
 }: FontLoaderProps<T>): FontLoaderResult => {
-  console.log(functionName, data);
+  const { fontFamily, display, weights, subsets, styles } = validateGoogleFont(
+    fontName,
+    data
+  );
+
+  console.log(fontFamily, display, weights, subsets, styles);
 
   return {};
 };

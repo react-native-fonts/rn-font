@@ -5,10 +5,10 @@ import {useFont} from 'rn-font';
 
 export default function App() {
   const {isLoaded} = useFont({
-    fontFamily: 'Inter',
+    fontFamily: 'ABeeZee',
     options: {
-      weight: ['400', '700'],
-      subsets: ['latin-ext'],
+      weight: ['400'],
+      display: 'swap',
     },
   });
 

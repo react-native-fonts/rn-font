@@ -1,6 +1,6 @@
 import type { Fonts } from './fonts';
 import { useState } from 'react';
-import { nextFontGoogleFontLoader } from './loader';
+import { googleFontLoader } from './loader';
 
 type FontLoaderProps<T extends keyof Fonts> = {
   fontFamily: T;
@@ -8,12 +8,10 @@ type FontLoaderProps<T extends keyof Fonts> = {
 };
 
 export const useFont = <T extends keyof Fonts>(args: FontLoaderProps<T>) => {
-  // const { name, options: fontOptions } = args;
-  // type a = keyof Fonts;
   const [isLoaded, setIsLoaded] = useState(false);
 
-  nextFontGoogleFontLoader({
-    functionName: args.fontFamily,
+  googleFontLoader({
+    fontName: args.fontFamily,
     data: args.options,
   }).then(() => setIsLoaded(true));
 

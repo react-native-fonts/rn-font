@@ -73,8 +73,6 @@ const formatUnion = (values: string[]) =>
     weight: ${formatUnion(weightTypes)} | Array<${formatUnion(weightTypes)}>
     style?: ${formatUnion(styleTypes)} | Array<${formatUnion(styleTypes)}>
     display?: Display
-    fallback?: string[]
-    adjustFontFallback?: boolean
     ${subsets.length > 0 ? `subsets?: Array<${formatUnion(subsets)}>` : ''}
     }
     `;

@@ -7,16 +7,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   ADLaM_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'adlam' | 'latin' | 'latin-ext'>;
   };
   AR_One_Sans: {
@@ -28,16 +24,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Abel: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Abhaya_Libre: {
@@ -50,64 +42,48 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sinhala'>;
   };
   Aboreto: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Abril_Fatface: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Abyssinica_SIL: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'ethiopic' | 'latin' | 'latin-ext'>;
   };
   Aclonica: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Acme: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Actor: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Adamina: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Advent_Pro: {
@@ -126,8 +102,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -141,8 +115,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic-ext' | 'latin' | 'latin-ext' | 'math' | 'symbols' | 'vietnamese'
     >;
@@ -151,24 +123,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Agdasima: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Aguafina_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Akatab: {
@@ -182,32 +148,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tifinagh'>;
   };
   Akaya_Kanadaka: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Akaya_Telivigala: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu'>;
   };
   Akronim: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Akshar: {
@@ -220,32 +178,24 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Aladin: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Alata: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alatsi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Albert_Sans: {
@@ -264,24 +214,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Aldrich: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Alef: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin'>;
   };
   Alegreya: {
@@ -295,8 +239,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -317,8 +259,6 @@ export type Fonts = {
       | Array<'400' | '500' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -341,8 +281,6 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '500' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -365,8 +303,6 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '500' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -393,16 +329,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alex_Brush: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alexandria: {
@@ -421,48 +353,36 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alfa_Slab_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alice: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Alike: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math' | 'symbols'>;
   };
   Alike_Angular: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math' | 'symbols'>;
   };
   Alkalami: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Alkatra: {
@@ -474,48 +394,36 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'devanagari' | 'latin' | 'latin-ext' | 'oriya'>;
   };
   Allan: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Allerta: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Allerta_Stencil: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Allison: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Allura: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Almarai: {
@@ -527,32 +435,24 @@ export type Fonts = {
       | Array<'300' | '400' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic'>;
   };
   Almendra: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Almendra_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Almendra_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Alumni_Sans: {
@@ -571,8 +471,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -581,24 +479,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alumni_Sans_Inline_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Alumni_Sans_Pinstripe: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -607,24 +499,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Amaranth: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Amatic_SC: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'hebrew' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -633,48 +519,36 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Amiko: {
     weight: '400' | '600' | '700' | Array<'400' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Amiri: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Amiri_Quran: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin'>;
   };
   Amita: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Anaheim: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Andada_Pro: {
@@ -687,16 +561,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Andika: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -714,8 +584,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Anek_Devanagari: {
@@ -731,8 +599,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Anek_Gujarati: {
@@ -748,8 +614,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Anek_Gurmukhi: {
@@ -765,8 +629,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Anek_Kannada: {
@@ -782,8 +644,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Anek_Latin: {
@@ -799,8 +659,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Anek_Malayalam: {
@@ -816,8 +674,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'malayalam'>;
   };
   Anek_Odia: {
@@ -833,8 +689,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'oriya'>;
   };
   Anek_Tamil: {
@@ -850,8 +704,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Anek_Telugu: {
@@ -867,64 +719,48 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu'>;
   };
   Angkor: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Annie_Use_Your_Telescope: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Anonymous_Pro: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek' | 'latin' | 'latin-ext'>;
   };
   Antic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Antic_Didone: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Antic_Slab: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Anton: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Antonio: {
@@ -939,8 +775,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Anuphan: {
@@ -955,8 +789,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic-ext' | 'latin' | 'latin-ext' | 'thai' | 'vietnamese'
     >;
@@ -977,48 +809,36 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Aoboshi_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Arapey: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Arbutus: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Arbutus_Slab: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Architects_Daughter: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Archivo: {
@@ -1037,16 +857,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Archivo_Black: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Archivo_Narrow: {
@@ -1058,32 +874,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Are_You_Serious: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Aref_Ruqaa: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Aref_Ruqaa_Ink: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Arima: {
@@ -1098,8 +906,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'greek'
       | 'greek-ext'
@@ -1119,8 +925,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -1136,24 +940,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Armata: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Arsenal: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -1162,24 +960,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Arvo: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Arya: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Asap: {
@@ -1198,8 +990,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Asap_Condensed: {
@@ -1215,24 +1005,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Asar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Asset: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Assistant: {
@@ -1247,24 +1031,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Astloch: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Asul: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Athiti: {
@@ -1278,16 +1056,12 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Atkinson_Hyperlegible: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Atma: {
@@ -1300,88 +1074,66 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Atomic_Age: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Aubrey: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Audiowide: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Autour_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Average: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Average_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Averia_Gruesa_Libre: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Averia_Libre: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Averia_Sans_Libre: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Averia_Serif_Libre: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Azeret_Mono: {
@@ -1400,104 +1152,78 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   B612: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   B612_Mono: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   BIZ_UDGothic: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   BIZ_UDMincho: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   BIZ_UDPGothic: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   BIZ_UDPMincho: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   Babylonica: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bacasime_Antique: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bad_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin'>;
   };
   Bagel_Fat_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bahiana: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bahianita: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bai_Jamjuree: {
@@ -1511,24 +1237,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Bakbak_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Ballet: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_2: {
@@ -1541,8 +1261,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_Bhai_2: {
@@ -1555,8 +1273,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_Bhaijaan_2: {
@@ -1569,8 +1285,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_Bhaina_2: {
@@ -1583,8 +1297,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'oriya' | 'vietnamese'>;
   };
   Baloo_Chettan_2: {
@@ -1597,8 +1309,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'malayalam' | 'vietnamese'>;
   };
   Baloo_Da_2: {
@@ -1611,8 +1321,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_Paaji_2: {
@@ -1625,8 +1333,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_Tamma_2: {
@@ -1639,8 +1345,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Baloo_Tammudu_2: {
@@ -1653,8 +1357,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu' | 'vietnamese'>;
   };
   Baloo_Thambi_2: {
@@ -1667,32 +1369,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil' | 'vietnamese'>;
   };
   Balsamiq_Sans: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Balthazar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bangers: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Barlow: {
@@ -1711,8 +1405,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Barlow_Condensed: {
@@ -1731,8 +1423,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Barlow_Semi_Condensed: {
@@ -1751,40 +1441,30 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Barriecito: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Barrio: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Basic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Baskervville: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Battambang: {
@@ -1797,24 +1477,18 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Baumans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bayon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Be_Vietnam_Pro: {
@@ -1833,104 +1507,78 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Beau_Rivage: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bebas_Neue: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Belanosima: {
     weight: '400' | '600' | '700' | Array<'400' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Belgrano: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bellefair: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Belleza: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bellota: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bellota_Text: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   BenchNine: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Benne: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Bentham: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Berkshire_Swash: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Besley: {
@@ -1944,32 +1592,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Beth_Ellen: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bevan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   BhuTuka_Expanded_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Big_Shoulders_Display: {
@@ -1988,8 +1628,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Big_Shoulders_Inline_Display: {
@@ -2008,8 +1646,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Big_Shoulders_Inline_Text: {
@@ -2028,8 +1664,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Big_Shoulders_Stencil_Display: {
@@ -2048,8 +1682,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Big_Shoulders_Stencil_Text: {
@@ -2068,8 +1700,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Big_Shoulders_Text: {
@@ -2088,40 +1718,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bigelow_Rules: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bigshot_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bilbo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bilbo_Swash_Caps: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   BioRhyme: {
@@ -2136,8 +1756,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   BioRhyme_Expanded: {
@@ -2150,24 +1768,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Birthstone: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Birthstone_Bounce: {
     weight: '400' | '500' | Array<'400' | '500'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Biryani: {
@@ -2182,8 +1794,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Bitter: {
@@ -2202,8 +1812,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -2212,48 +1820,36 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Black_Han_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Black_Ops_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Blaka: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Blaka_Hollow: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Blaka_Ink: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Blinker: {
@@ -2269,8 +1865,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bodoni_Moda: {
@@ -2284,24 +1878,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bokor: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Bona_Nova: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -2316,72 +1904,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bonheur_Royale: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Boogaloo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Borel: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math' | 'symbols' | 'vietnamese'>;
   };
   Bowlby_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bowlby_One_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Braah_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Brawler: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Bree_Serif: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bricolage_Grotesque: {
@@ -2396,24 +1966,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bruno_Ace: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bruno_Ace_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Brygada_1918: {
@@ -2425,8 +1989,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -2440,96 +2002,72 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bubbler_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Buda: {
     weight: '300' | Array<'300'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Buenard: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Bungee: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bungee_Hairline: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bungee_Inline: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bungee_Outline: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bungee_Shade: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Bungee_Spice: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Butcherman: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Butterfly_Kids: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cabin: {
@@ -2541,8 +2079,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Cabin_Condensed: {
@@ -2554,32 +2090,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Cabin_Sketch: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Caesar_Dressing: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cagliostro: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cairo: {
@@ -2598,8 +2126,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Cairo_Play: {
@@ -2618,128 +2144,96 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Caladea: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Calistoga: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Calligraffitti: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cambay: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Cambo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Candal: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cantarell: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cantata_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cantora_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Caprasimo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Capriola: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Caramel: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Carattere: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Cardo: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   Carlito: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -2754,48 +2248,36 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Carrois_Gothic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Carrois_Gothic_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Carter_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Castoro: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Castoro_Titling: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Catamaran: {
@@ -2814,16 +2296,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Caudex: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   Caveat: {
@@ -2835,32 +2313,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Caveat_Brush: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cedarville_Cursive: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Ceviche_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Chakra_Petch: {
@@ -2873,8 +2343,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Changa: {
@@ -2889,32 +2357,24 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Changa_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Chango: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Charis_SIL: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -2923,16 +2383,12 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Charmonman: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Chathura: {
@@ -2945,96 +2401,72 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Chau_Philomene_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Chela_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Chelsea_Market: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Chenla: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer'>;
   };
   Cherish: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Cherry_Bomb_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Cherry_Cream_Soda: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cherry_Swash: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Chewy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Chicle: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Chilanka: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'malayalam'>;
   };
   Chivo: {
@@ -3053,8 +2485,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Chivo_Mono: {
@@ -3073,24 +2503,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Chokokutai: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Chonburi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Cinzel: {
@@ -3104,64 +2528,48 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cinzel_Decorative: {
     weight: '400' | '700' | '900' | Array<'400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Clicker_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Climate_Crisis: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Coda: {
     weight: '400' | '800' | Array<'400' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Codystar: {
     weight: '300' | '400' | Array<'300' | '400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Coiny: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil' | 'vietnamese'>;
   };
   Combo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Comfortaa: {
@@ -3174,8 +2582,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -3189,32 +2595,24 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Comforter_Brush: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Comic_Neue: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Coming_Soon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Comme: {
@@ -3233,8 +2631,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Commissioner: {
@@ -3253,8 +2649,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -3268,72 +2662,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Condiment: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Content: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer'>;
   };
   Contrail_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Convergence: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cookie: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Copse: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Corben: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Corinthia: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Cormorant: {
@@ -3346,8 +2722,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3362,8 +2736,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3378,8 +2750,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3394,8 +2764,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3410,8 +2778,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3426,32 +2792,24 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Courgette: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Courier_Prime: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cousine: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -3467,40 +2825,30 @@ export type Fonts = {
     weight: '400' | '900' | Array<'400' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Covered_By_Your_Grace: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Crafty_Girls: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Creepster: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Crete_Round: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Crimson_Pro: {
@@ -3516,32 +2864,24 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Crimson_Text: {
     weight: '400' | '600' | '700' | Array<'400' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Croissant_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Crushed: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cuprum: {
@@ -3553,8 +2893,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3563,32 +2901,24 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Cutive: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Cutive_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   DM_Mono: {
     weight: '300' | '400' | '500' | Array<'300' | '400' | '500'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   DM_Sans: {
@@ -3617,24 +2947,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   DM_Serif_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   DM_Serif_Text: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Dai_Banna_SIL: {
@@ -3647,16 +2971,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'new-tai-lue'>;
   };
   Damion: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Dancing_Script: {
@@ -3668,16 +2988,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Dangrek: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Darker_Grotesque: {
@@ -3692,56 +3008,42 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Darumadrop_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   David_Libre: {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Dawning_of_a_New_Day: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Days_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Dekko: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Dela_Gothic_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'greek' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -3750,72 +3052,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Delius: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Delius_Swash_Caps: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Delius_Unicase: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Della_Respira: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Denk_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Devonshire: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Dhurjati: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Didact_Gothic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -3829,40 +3113,30 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Diplomata: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Diplomata_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Do_Hyeon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Dokdo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Domine: {
@@ -3874,40 +3148,30 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Donegal_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Dongle: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Doppio_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Dorsa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Dosis: {
@@ -3922,32 +3186,24 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   DotGothic16: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Dr_Sugiyama: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Duru_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   DynaPuff: {
@@ -3959,16 +3215,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Dynalight: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   EB_Garamond: {
@@ -3981,8 +3233,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -3997,32 +3247,24 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   East_Sea_Dokdo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Eater: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Economica: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Eczar: {
@@ -4035,8 +3277,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'devanagari' | 'greek' | 'greek-ext' | 'latin' | 'latin-ext'
     >;
@@ -4050,8 +3290,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Edu_QLD_Beginner: {
@@ -4063,8 +3301,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Edu_SA_Beginner: {
@@ -4076,8 +3312,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Edu_TAS_Beginner: {
@@ -4089,8 +3323,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Edu_VIC_WA_NT_Beginner: {
@@ -4102,8 +3334,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   El_Messiri: {
@@ -4115,48 +3345,36 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Electrolize: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Elsie: {
     weight: '400' | '900' | Array<'400' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Elsie_Swash_Caps: {
     weight: '400' | '900' | Array<'400' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Emblema_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Emilys_Candy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Encode_Sans: {
@@ -4175,8 +3393,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Encode_Sans_Condensed: {
@@ -4195,8 +3411,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Encode_Sans_Expanded: {
@@ -4215,8 +3429,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Encode_Sans_SC: {
@@ -4235,8 +3447,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Encode_Sans_Semi_Condensed: {
@@ -4255,8 +3465,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Encode_Sans_Semi_Expanded: {
@@ -4275,24 +3483,18 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Engagement: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Englebert: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Enriqueta: {
@@ -4304,16 +3506,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ephesis: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Epilogue: {
@@ -4332,48 +3530,36 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Erica_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Esteban: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Estonia: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Euphoria_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ewert: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Exo: {
@@ -4392,8 +3578,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Exo_2: {
@@ -4412,8 +3596,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -4427,16 +3609,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Explora: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cherokee' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fahkwang: {
@@ -4450,8 +3628,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Familjen_Grotesk: {
@@ -4463,16 +3639,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fanwood_Text: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Farro: {
@@ -4484,56 +3656,42 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Farsan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fascinate: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Fascinate_Inline: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Faster_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Fasthand: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Fauna_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Faustina: {
@@ -4547,48 +3705,36 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Federant: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Federo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Felipa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Fenix: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Festive: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Figtree: {
@@ -4603,16 +3749,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Finger_Paint: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Finlandica: {
@@ -4624,8 +3766,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Fira_Code: {
@@ -4638,8 +3778,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -4653,8 +3791,6 @@ export type Fonts = {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -4680,8 +3816,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -4708,8 +3842,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -4736,8 +3868,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -4752,48 +3882,36 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fjord_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Flamenco: {
     weight: '300' | '400' | Array<'300' | '400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Flavors: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Fleur_De_Leah: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Flow_Block: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -4802,8 +3920,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -4812,8 +3928,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -4834,48 +3948,36 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fondamento: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Fontdiner_Swanky: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Forum: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Fragment_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Francois_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Frank_Ruhl_Libre: {
@@ -4890,8 +3992,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Fraunces: {
@@ -4910,24 +4010,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Freckle_Face: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Fredericka_the_Great: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Fredoka: {
@@ -4940,80 +4034,60 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Freehand: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Fresca: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Frijole: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Fruktur: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fugaz_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Fuggles: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Fuzzy_Bubbles: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   GFS_Didot: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek'>;
   };
   GFS_Neohellenic: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek'>;
   };
   Gabarito: {
@@ -5027,72 +4101,54 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gabriela: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Gaegu: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gafata: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gajraj_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Galada: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin'>;
   };
   Galdeano: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Galindo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gamja_Flower: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gantari: {
@@ -5111,24 +4167,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gasoek_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gayathri: {
     weight: '100' | '400' | '700' | Array<'100' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'malayalam'>;
   };
   Gelasio: {
@@ -5140,8 +4190,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Gemunu_Libre: {
@@ -5156,8 +4204,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sinhala'>;
   };
   Genos: {
@@ -5176,16 +4222,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cherokee' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Gentium_Book_Plus: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -5200,8 +4242,6 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -5216,8 +4256,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Geologica: {
@@ -5236,8 +4274,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -5263,104 +4299,78 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Geostar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Geostar_Fill: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Germania_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gideon_Roman: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Gidugu: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Gilda_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Girassol: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Give_You_Glory: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Glass_Antiqua: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Glegoo: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Gloock: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Gloria_Hallelujah: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Glory: {
@@ -5376,8 +4386,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Gluten: {
@@ -5396,32 +4404,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Goblin_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gochi_Hand: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Goldman: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Golos_Text: {
@@ -5435,16 +4435,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Gorditas: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gothic_A1: {
@@ -5463,64 +4459,48 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gotu: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Goudy_Bookletter_1911: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gowun_Batang: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Gowun_Dodum: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Graduate: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Grand_Hotel: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Grandiflora_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Grandstander: {
@@ -5539,40 +4519,30 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Grape_Nuts: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Gravitas_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Great_Vibes: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Grechen_Fuemen: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Grenze: {
@@ -5591,8 +4561,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Grenze_Gotisch: {
@@ -5611,96 +4579,72 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Grey_Qo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Griffy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gruppo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gudea: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Gugi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gulzar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Gupter: {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Gurajada: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Gwendolyn: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Habibi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Hachi_Maru_Pop: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Hahmlet: {
@@ -5719,8 +4663,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Halant: {
@@ -5733,32 +4675,24 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Hammersmith_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Hanalei: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Hanalei_Fill: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Handjet: {
@@ -5777,8 +4711,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'arabic'
       | 'armenian'
@@ -5795,8 +4727,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Hanken_Grotesk: {
@@ -5815,8 +4745,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Hanuman: {
@@ -5829,16 +4757,12 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Happy_Monkey: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Harmattan: {
@@ -5850,32 +4774,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Headland_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Hedvig_Letters_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math' | 'symbols'>;
   };
   Hedvig_Letters_Serif: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math' | 'symbols'>;
   };
   Heebo: {
@@ -5894,16 +4810,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin'>;
   };
   Henny_Penny: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Hepta_Slab: {
@@ -5932,32 +4844,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Herr_Von_Muellerhoff: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Hi_Melody: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Hina_Mincho: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Hind: {
@@ -5970,8 +4874,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Hind_Guntur: {
@@ -5984,8 +4886,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu'>;
   };
   Hind_Madurai: {
@@ -5998,8 +4898,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Hind_Siliguri: {
@@ -6012,8 +4910,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Hind_Vadodara: {
@@ -6026,48 +4922,36 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Holtwood_One_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Homemade_Apple: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Homenaje: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Hubballi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Hurricane: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   IBM_Plex_Mono: {
@@ -6082,8 +4966,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -6100,8 +4982,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -6123,8 +5003,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   IBM_Plex_Sans_Condensed: {
@@ -6139,8 +5017,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   IBM_Plex_Sans_Devanagari: {
@@ -6155,8 +5031,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'devanagari' | 'latin' | 'latin-ext'>;
   };
   IBM_Plex_Sans_Hebrew: {
@@ -6171,8 +5045,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'>;
   };
   IBM_Plex_Sans_JP: {
@@ -6187,8 +5059,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   IBM_Plex_Sans_KR: {
@@ -6203,8 +5073,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   IBM_Plex_Sans_Thai: {
@@ -6219,8 +5087,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'thai'>;
   };
   IBM_Plex_Sans_Thai_Looped: {
@@ -6235,8 +5101,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'thai'>;
   };
   IBM_Plex_Serif: {
@@ -6251,8 +5115,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -6261,80 +5123,60 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_DW_Pica_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_Double_Pica: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_Double_Pica_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_English: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_English_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_French_Canon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_French_Canon_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_Great_Primer: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   IM_Fell_Great_Primer_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Ibarra_Real_Nova: {
@@ -6346,24 +5188,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Iceberg: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Iceland: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Imbue: {
@@ -6382,32 +5218,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Imperial_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Imprima: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Inclusive_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Inconsolata: {
@@ -6423,40 +5251,30 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Inder: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Indie_Flower: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Ingrid_Darling: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Inika: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Inknut_Antiqua: {
@@ -6471,32 +5289,24 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Inria_Sans: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Inria_Serif: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Inspiration: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Instrument_Sans: {
@@ -6508,16 +5318,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Instrument_Serif: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Inter: {
@@ -6536,8 +5342,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -6564,8 +5368,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -6580,72 +5382,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Island_Moments: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Istok_Web: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Italiana: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Italianno: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Itim: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Jacques_Francois: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Jacques_Francois_Shadow: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Jaldi: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   JetBrains_Mono: {
@@ -6661,8 +5445,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -6676,48 +5458,36 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Joan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Jockey_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Jolly_Lodger: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Jomhuria: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Jomolhari: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'tibetan'>;
   };
   Josefin_Sans: {
@@ -6732,8 +5502,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Josefin_Slab: {
@@ -6748,8 +5516,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Jost: {
@@ -6768,56 +5534,42 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Joti_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Jua: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Judson: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Julee: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Julius_Sans_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Junge: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Jura: {
@@ -6830,8 +5582,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -6847,16 +5597,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Just_Me_Again_Down_Here: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   K2D: {
@@ -6872,16 +5618,12 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Kablammo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -6890,32 +5632,24 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin'>;
   };
   Kaisei_Decol: {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kaisei_HarunoUmi: {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kaisei_Opti: {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kaisei_Tokumin: {
@@ -6927,16 +5661,12 @@ export type Fonts = {
       | Array<'400' | '500' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kalam: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Kalnia: {
@@ -6951,8 +5681,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math'>;
   };
   Kameron: {
@@ -6964,8 +5692,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kanit: {
@@ -6984,8 +5710,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Kantumruy_Pro: {
@@ -7000,16 +5724,12 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin' | 'latin-ext'>;
   };
   Karantina: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Karla: {
@@ -7024,8 +5744,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Karma: {
@@ -7038,40 +5756,30 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Katibeh: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Kaushan_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kavivanar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Kavoon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kay_Pho_Du: {
@@ -7083,40 +5791,30 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kayah-li' | 'latin' | 'latin-ext'>;
   };
   Kdam_Thmor_Pro: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin' | 'latin-ext'>;
   };
   Keania_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kelly_Slab: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kenia: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Khand: {
@@ -7129,16 +5827,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Khmer: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer'>;
   };
   Khula: {
@@ -7151,56 +5845,42 @@ export type Fonts = {
       | Array<'300' | '400' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Kings: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Kirang_Haerang: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Kite_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kiwi_Maru: {
     weight: '300' | '400' | '500' | Array<'300' | '400' | '500'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Klee_One: {
     weight: '400' | '600' | Array<'400' | '600'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek-ext' | 'latin' | 'latin-ext'>;
   };
   Knewave: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   KoHo: {
@@ -7214,8 +5894,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Kodchasan: {
@@ -7229,8 +5907,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Koh_Santepheap: {
@@ -7243,64 +5919,48 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Kolker_Brush: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Konkhmer_Sleokchher: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin' | 'latin-ext'>;
   };
   Kosugi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kosugi_Maru: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Kotta_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Koulen: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Kranky: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Kreon: {
@@ -7313,24 +5973,18 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kristi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Krona_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Krub: {
@@ -7344,8 +5998,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Kufam: {
@@ -7359,8 +6011,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Kulim_Park: {
@@ -7373,24 +6023,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Kumar_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Kumar_One_Outline: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Kumbh_Sans: {
@@ -7409,16 +6053,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'math'>;
   };
   Kurale: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'devanagari' | 'latin' | 'latin-ext'
     >;
@@ -7427,8 +6067,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Labrada: {
@@ -7447,16 +6085,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lacquer: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Laila: {
@@ -7469,40 +6103,30 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Lakki_Reddy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Lalezar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lancelot: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Langar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Lateef: {
@@ -7517,8 +6141,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Lato: {
@@ -7531,32 +6153,24 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lavishly_Yours: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   League_Gothic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   League_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   League_Spartan: {
@@ -7575,40 +6189,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Leckerli_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Ledger: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Lekton: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lemon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lemonada: {
@@ -7621,8 +6225,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend: {
@@ -7641,8 +6243,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Deca: {
@@ -7661,8 +6261,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Exa: {
@@ -7681,8 +6279,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Giga: {
@@ -7701,8 +6297,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Mega: {
@@ -7721,8 +6315,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Peta: {
@@ -7741,8 +6333,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Tera: {
@@ -7761,8 +6351,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lexend_Zetta: {
@@ -7781,72 +6369,54 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Libre_Barcode_128: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Barcode_128_Text: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Barcode_39: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Barcode_39_Extended: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Barcode_39_Extended_Text: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Barcode_39_Text: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Barcode_EAN13_Text: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Libre_Baskerville: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Libre_Bodoni: {
@@ -7858,24 +6428,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Libre_Caslon_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Libre_Caslon_Text: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Libre_Franklin: {
@@ -7894,56 +6458,42 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Licorice: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Life_Savers: {
     weight: '400' | '700' | '800' | Array<'400' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lilita_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lily_Script_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Limelight: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Linden_Hill: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Linefont: {
@@ -7972,8 +6522,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
   };
   Lisu_Bosa: {
     weight:
@@ -7988,8 +6536,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'lisu'>;
   };
   Literata: {
@@ -8005,8 +6551,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -8021,8 +6565,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Livvic: {
@@ -8038,16 +6580,12 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Lobster: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -8056,32 +6594,24 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Londrina_Outline: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Londrina_Shadow: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Londrina_Sketch: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Londrina_Solid: {
@@ -8093,16 +6623,12 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Long_Cang: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Lora: {
@@ -8114,8 +6640,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -8124,64 +6648,48 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Love_Ya_Like_A_Sister: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Loved_by_the_King: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Lovers_Quarrel: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Luckiest_Guy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Lugrasimo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lumanosimo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Lunasima: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -8197,32 +6705,24 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Lustria: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Luxurious_Roman: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Luxurious_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   M_PLUS_1: {
@@ -8241,8 +6741,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   M_PLUS_1_Code: {
@@ -8257,8 +6755,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   M_PLUS_1p: {
@@ -8273,8 +6769,6 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '500' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -8302,8 +6796,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   M_PLUS_Code_Latin: {
@@ -8318,8 +6810,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   M_PLUS_Rounded_1c: {
@@ -8334,8 +6824,6 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '500' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -8351,24 +6839,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Macondo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Macondo_Swash_Caps: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Mada: {
@@ -8384,24 +6866,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Magra: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Maiden_Orange: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Maitree: {
@@ -8415,24 +6891,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Major_Mono_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Mako: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mali: {
@@ -8446,32 +6916,24 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Mallanna: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Mandali: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Manjari: {
     weight: '100' | '400' | '700' | Array<'100' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'malayalam'>;
   };
   Manrope: {
@@ -8486,8 +6948,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -8501,8 +6961,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Manuale: {
@@ -8516,40 +6974,30 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Marcellus: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Marcellus_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Marck_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Margarine: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Marhey: {
@@ -8562,8 +7010,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Markazi_Text: {
@@ -8575,24 +7021,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Marko_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Marmelad: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -8609,8 +7049,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Martel_Sans: {
@@ -8625,8 +7063,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Martian_Mono: {
@@ -8642,32 +7078,24 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Marvel: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Mate: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mate_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Maven_Pro: {
@@ -8681,80 +7109,60 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   McLaren: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mea_Culpa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Meddon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   MedievalSharp: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Medula_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Meera_Inimai: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'tamil'>;
   };
   Megrim: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Meie_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Meow_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Merienda: {
@@ -8769,8 +7177,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Merriweather: {
@@ -8782,8 +7188,6 @@ export type Fonts = {
       | Array<'300' | '400' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -8799,104 +7203,78 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Metal: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Metal_Mania: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Metamorphous: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Metrophobic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Michroma: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Milonga: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Miltonian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Miltonian_Tattoo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Mina: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Mingzat: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'lepcha'>;
   };
   Miniver: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Miriam_Libre: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Mirza: {
@@ -8908,16 +7286,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Miss_Fajardose: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mitr: {
@@ -8931,48 +7305,36 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Mochiy_Pop_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Mochiy_Pop_P_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Modak: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Modern_Antiqua: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mogra: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Mohave: {
@@ -8985,80 +7347,60 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Moirai_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Molengo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Molle: {
     weight: '400' | Array<'400'>;
     style?: 'italic' | Array<'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Monda: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Monofett: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Monomaniac_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Monoton: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Monsieur_La_Doulaise: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Montaga: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Montagu_Slab: {
@@ -9073,24 +7415,18 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   MonteCarlo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Montez: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Montserrat: {
@@ -9109,8 +7445,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -9131,8 +7465,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -9141,112 +7473,84 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Moo_Lah_Lah: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Mooli: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Moon_Dance: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Moul: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Moulpali: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Mountains_of_Christmas: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Mouse_Memoirs: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mr_Bedfort: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mr_Dafoe: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mr_De_Haviland: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mrs_Saint_Delafield: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Mrs_Sheppards: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ms_Madi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Mukta: {
@@ -9261,8 +7565,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Mukta_Mahee: {
@@ -9277,8 +7579,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Mukta_Malar: {
@@ -9293,8 +7593,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Mukta_Vaani: {
@@ -9309,8 +7607,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Mulish: {
@@ -9329,8 +7625,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -9351,8 +7645,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -9373,48 +7665,36 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   My_Soul: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Mynerve: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Mystery_Quest: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   NTR: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Nabla: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic-ext' | 'latin' | 'latin-ext' | 'math' | 'vietnamese'
     >;
@@ -9423,40 +7703,30 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nanum_Gothic: {
     weight: '400' | '700' | '800' | Array<'400' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nanum_Gothic_Coding: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nanum_Myeongjo: {
     weight: '400' | '700' | '800' | Array<'400' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nanum_Pen_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Narnoor: {
@@ -9469,8 +7739,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'gunjala-gondi' | 'latin' | 'latin-ext' | 'math' | 'symbols'
     >;
@@ -9479,24 +7747,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Nerko_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Neucha: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin'>;
   };
   Neuton: {
@@ -9509,32 +7771,24 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   New_Rocker: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   New_Tegomin: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   News_Cycle: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Newsreader: {
@@ -9549,16 +7803,12 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Niconne: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Niramit: {
@@ -9572,24 +7822,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Nixie_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nobile: {
     weight: '400' | '500' | '700' | Array<'400' | '500' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Nokora: {
@@ -9602,56 +7846,42 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Norican: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Nosifer: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Notable: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nothing_You_Could_Do: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Noticia_Text: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Color_Emoji: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'emoji'>;
   };
   Noto_Emoji: {
@@ -9664,8 +7894,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'emoji'>;
   };
   Noto_Kufi_Arabic: {
@@ -9684,16 +7912,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic'>;
   };
   Noto_Music: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'music'>;
   };
   Noto_Naskh_Arabic: {
@@ -9705,8 +7929,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Noto_Nastaliq_Urdu: {
@@ -9718,8 +7940,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Noto_Rashi_Hebrew: {
@@ -9738,8 +7958,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans: {
@@ -9758,8 +7976,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -9780,8 +7996,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'adlam' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Adlam_Unjoined: {
@@ -9793,16 +8007,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'adlam' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Anatolian_Hieroglyphs: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'anatolian-hieroglyphs' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Arabic: {
@@ -9821,8 +8031,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic'>;
   };
   Noto_Sans_Armenian: {
@@ -9841,16 +8049,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'armenian' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Avestan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'avestan' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Balinese: {
@@ -9862,8 +8066,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'balinese' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Bamum: {
@@ -9875,8 +8077,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bamum' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Bassa_Vah: {
@@ -9888,16 +8088,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bassa-vah' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Batak: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'batak' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Bengali: {
@@ -9916,40 +8112,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Bhaiksuki: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bhaiksuki' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Brahmi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'brahmi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Buginese: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'buginese' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Buhid: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'buhid' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Canadian_Aboriginal: {
@@ -9968,32 +8154,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'canadian-aboriginal' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Carian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'carian' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Caucasian_Albanian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'caucasian-albanian' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Chakma: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'chakma' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Cham: {
@@ -10012,8 +8190,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cham' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Cherokee: {
@@ -10032,56 +8208,42 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cherokee' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Chorasmian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'chorasmian' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Coptic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'coptic' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Cuneiform: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cuneiform' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Cypriot: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cypriot' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Cypro_Minoan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cypro-minoan' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Deseret: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'deseret' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Devanagari: {
@@ -10100,8 +8262,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Display: {
@@ -10120,8 +8280,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -10136,32 +8294,24 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'duployan' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Egyptian_Hieroglyphs: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'egyptian-hieroglyphs' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Elbasan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'elbasan' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Elymaic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'elymaic' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Ethiopic: {
@@ -10180,8 +8330,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'ethiopic' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Georgian: {
@@ -10200,32 +8348,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'georgian' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Glagolitic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'glagolitic' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Gothic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gothic' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Grantha: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'grantha' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Gujarati: {
@@ -10244,8 +8384,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext' | 'math' | 'symbols'>;
   };
   Noto_Sans_Gunjala_Gondi: {
@@ -10257,8 +8395,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gunjala-gondi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Gurmukhi: {
@@ -10277,8 +8413,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_HK: {
@@ -10297,8 +8431,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Sans_Hanifi_Rohingya: {
@@ -10310,24 +8442,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hanifi-rohingya' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Hanunoo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hanunoo' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Hatran: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hatran' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Hebrew: {
@@ -10346,40 +8472,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Imperial_Aramaic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'imperial-aramaic' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Indic_Siyaq_Numbers: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'indic-siyaq-numbers' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Inscriptional_Pahlavi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'inscriptional-pahlavi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Inscriptional_Parthian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'inscriptional-parthian' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_JP: {
@@ -10398,8 +8514,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Sans_Javanese: {
@@ -10411,8 +8525,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'javanese' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_KR: {
@@ -10431,16 +8543,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Sans_Kaithi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kaithi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Kannada: {
@@ -10459,8 +8567,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Kawi: {
@@ -10472,8 +8578,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kawi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Kayah_Li: {
@@ -10485,16 +8589,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kayah-li' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Kharoshthi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kharoshthi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Khmer: {
@@ -10513,24 +8613,18 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Khojki: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khojki' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Khudawadi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khudawadi' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Lao: {
@@ -10549,8 +8643,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'lao' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Lao_Looped: {
@@ -10569,40 +8661,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'lao' | 'latin' | 'latin-ext'>;
   };
   Noto_Sans_Lepcha: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'lepcha'>;
   };
   Noto_Sans_Limbu: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'limbu'>;
   };
   Noto_Sans_Linear_A: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'linear-a'>;
   };
   Noto_Sans_Linear_B: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'linear-b'>;
   };
   Noto_Sans_Lisu: {
@@ -10614,32 +8696,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'lisu'>;
   };
   Noto_Sans_Lycian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'lycian'>;
   };
   Noto_Sans_Lydian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'lydian'>;
   };
   Noto_Sans_Mahajani: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'mahajani'>;
   };
   Noto_Sans_Malayalam: {
@@ -10658,56 +8732,42 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'malayalam'>;
   };
   Noto_Sans_Mandaic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'mandaic'>;
   };
   Noto_Sans_Manichaean: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'manichaean'>;
   };
   Noto_Sans_Marchen: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'marchen'>;
   };
   Noto_Sans_Masaram_Gondi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'masaram-gondi'>;
   };
   Noto_Sans_Math: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'math'>;
   };
   Noto_Sans_Mayan_Numerals: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'mayan-numerals'>;
   };
   Noto_Sans_Medefaidrin: {
@@ -10719,8 +8779,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'medefaidrin'>;
   };
   Noto_Sans_Meetei_Mayek: {
@@ -10739,24 +8797,18 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'meetei-mayek'>;
   };
   Noto_Sans_Mende_Kikakui: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'mende-kikakui'>;
   };
   Noto_Sans_Meroitic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'latin'
       | 'latin-ext'
@@ -10769,24 +8821,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'miao'>;
   };
   Noto_Sans_Modi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'modi'>;
   };
   Noto_Sans_Mongolian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'mongolian'>;
   };
   Noto_Sans_Mono: {
@@ -10805,8 +8851,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -10821,16 +8865,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'mro'>;
   };
   Noto_Sans_Multani: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'multani'>;
   };
   Noto_Sans_Myanmar: {
@@ -10849,16 +8889,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'myanmar'>;
   };
   Noto_Sans_NKo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nko'>;
   };
   Noto_Sans_NKo_Unjoined: {
@@ -10870,16 +8906,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nko'>;
   };
   Noto_Sans_Nabataean: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nabataean'>;
   };
   Noto_Sans_Nag_Mundari: {
@@ -10891,16 +8923,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nag-mundari'>;
   };
   Noto_Sans_Nandinagari: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nandinagari'>;
   };
   Noto_Sans_New_Tai_Lue: {
@@ -10912,32 +8940,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'new-tai-lue'>;
   };
   Noto_Sans_Newa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'newa'>;
   };
   Noto_Sans_Nushu: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nushu'>;
   };
   Noto_Sans_Ogham: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'ogham'>;
   };
   Noto_Sans_Ol_Chiki: {
@@ -10949,72 +8969,54 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'ol-chiki'>;
   };
   Noto_Sans_Old_Hungarian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-hungarian'>;
   };
   Noto_Sans_Old_Italic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-italic'>;
   };
   Noto_Sans_Old_North_Arabian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-north-arabian'>;
   };
   Noto_Sans_Old_Permic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'old-permic'>;
   };
   Noto_Sans_Old_Persian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-persian'>;
   };
   Noto_Sans_Old_Sogdian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-sogdian'>;
   };
   Noto_Sans_Old_South_Arabian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-south-arabian'>;
   };
   Noto_Sans_Old_Turkic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-turkic'>;
   };
   Noto_Sans_Oriya: {
@@ -11033,88 +9035,66 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'oriya'>;
   };
   Noto_Sans_Osage: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'osage'>;
   };
   Noto_Sans_Osmanya: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'osmanya'>;
   };
   Noto_Sans_Pahawh_Hmong: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'pahawh-hmong'>;
   };
   Noto_Sans_Palmyrene: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'palmyrene'>;
   };
   Noto_Sans_Pau_Cin_Hau: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'pau-cin-hau'>;
   };
   Noto_Sans_Phags_Pa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'phags-pa'>;
   };
   Noto_Sans_Phoenician: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'phoenician'>;
   };
   Noto_Sans_Psalter_Pahlavi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'psalter-pahlavi'>;
   };
   Noto_Sans_Rejang: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'rejang'>;
   };
   Noto_Sans_Runic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'runic'>;
   };
   Noto_Sans_SC: {
@@ -11133,56 +9113,42 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Sans_Samaritan: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'samaritan'>;
   };
   Noto_Sans_Saurashtra: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'saurashtra'>;
   };
   Noto_Sans_Sharada: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sharada'>;
   };
   Noto_Sans_Shavian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'shavian'>;
   };
   Noto_Sans_Siddham: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'siddham'>;
   };
   Noto_Sans_SignWriting: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'signwriting'>;
   };
   Noto_Sans_Sinhala: {
@@ -11201,16 +9167,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sinhala'>;
   };
   Noto_Sans_Sogdian: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sogdian'>;
   };
   Noto_Sans_Sora_Sompeng: {
@@ -11222,16 +9184,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sora-sompeng'>;
   };
   Noto_Sans_Soyombo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'soyombo'>;
   };
   Noto_Sans_Sundanese: {
@@ -11243,16 +9201,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sundanese'>;
   };
   Noto_Sans_Syloti_Nagri: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'syloti-nagri'>;
   };
   Noto_Sans_Symbols: {
@@ -11271,16 +9225,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'symbols'>;
   };
   Noto_Sans_Symbols_2: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'braille' | 'latin' | 'latin-ext' | 'math' | 'mayan-numerals' | 'symbols'
     >;
@@ -11301,8 +9251,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'syriac'>;
   };
   Noto_Sans_Syriac_Eastern: {
@@ -11321,8 +9269,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'syriac'>;
   };
   Noto_Sans_TC: {
@@ -11341,32 +9287,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Sans_Tagalog: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tagalog'>;
   };
   Noto_Sans_Tagbanwa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tagbanwa'>;
   };
   Noto_Sans_Tai_Le: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tai-le'>;
   };
   Noto_Sans_Tai_Tham: {
@@ -11378,24 +9316,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tai-tham'>;
   };
   Noto_Sans_Tai_Viet: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tai-viet'>;
   };
   Noto_Sans_Takri: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'takri'>;
   };
   Noto_Sans_Tamil: {
@@ -11414,16 +9346,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Noto_Sans_Tamil_Supplement: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil-supplement'>;
   };
   Noto_Sans_Tangsa: {
@@ -11435,8 +9363,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tangsa'>;
   };
   Noto_Sans_Telugu: {
@@ -11455,8 +9381,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu'>;
   };
   Noto_Sans_Thaana: {
@@ -11475,8 +9399,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thaana'>;
   };
   Noto_Sans_Thai: {
@@ -11495,8 +9417,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai'>;
   };
   Noto_Sans_Thai_Looped: {
@@ -11515,40 +9435,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai'>;
   };
   Noto_Sans_Tifinagh: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tifinagh'>;
   };
   Noto_Sans_Tirhuta: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tirhuta'>;
   };
   Noto_Sans_Ugaritic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'ugaritic'>;
   };
   Noto_Sans_Vai: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vai'>;
   };
   Noto_Sans_Vithkuqi: {
@@ -11560,40 +9470,30 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vithkuqi'>;
   };
   Noto_Sans_Wancho: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'wancho'>;
   };
   Noto_Sans_Warang_Citi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'warang-citi'>;
   };
   Noto_Sans_Yi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'yi'>;
   };
   Noto_Sans_Zanabazar_Square: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'zanabazar-square'>;
   };
   Noto_Serif: {
@@ -11612,8 +9512,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -11628,8 +9526,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'ahom' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Armenian: {
@@ -11648,16 +9544,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'armenian' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Balinese: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'balinese' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Bengali: {
@@ -11676,8 +9568,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Devanagari: {
@@ -11696,8 +9586,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Display: {
@@ -11716,8 +9604,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -11732,8 +9618,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'dogra' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Ethiopic: {
@@ -11752,8 +9636,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'ethiopic' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Georgian: {
@@ -11772,16 +9654,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'georgian' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Grantha: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'grantha' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Gujarati: {
@@ -11800,8 +9678,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext' | 'math' | 'symbols'>;
   };
   Noto_Serif_Gurmukhi: {
@@ -11820,8 +9696,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_HK: {
@@ -11837,8 +9711,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Noto_Serif_Hebrew: {
@@ -11857,8 +9729,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_JP: {
@@ -11873,8 +9743,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Noto_Serif_KR: {
@@ -11889,8 +9757,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Noto_Serif_Kannada: {
@@ -11909,16 +9775,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Khitan_Small_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khitan-small-script' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Khmer: {
@@ -11937,8 +9799,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Khojki: {
@@ -11950,8 +9810,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khojki' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Lao: {
@@ -11970,16 +9828,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'lao' | 'latin' | 'latin-ext'>;
   };
   Noto_Serif_Makasar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'makasar'>;
   };
   Noto_Serif_Malayalam: {
@@ -11998,8 +9852,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'malayalam'>;
   };
   Noto_Serif_Myanmar: {
@@ -12018,8 +9870,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'myanmar'>;
   };
   Noto_Serif_NP_Hmong: {
@@ -12031,16 +9881,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'nyiakeng-puachue-hmong'>;
   };
   Noto_Serif_Old_Uyghur: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'old-uyghur'>;
   };
   Noto_Serif_Oriya: {
@@ -12052,16 +9898,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'oriya'>;
   };
   Noto_Serif_Ottoman_Siyaq: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'ottoman-siyaq-numbers'>;
   };
   Noto_Serif_SC: {
@@ -12076,8 +9918,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Noto_Serif_Sinhala: {
@@ -12096,8 +9936,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sinhala'>;
   };
   Noto_Serif_TC: {
@@ -12112,8 +9950,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Noto_Serif_Tamil: {
@@ -12132,16 +9968,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Noto_Serif_Tangut: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tangut'>;
   };
   Noto_Serif_Telugu: {
@@ -12160,8 +9992,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu'>;
   };
   Noto_Serif_Thai: {
@@ -12180,8 +10010,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai'>;
   };
   Noto_Serif_Tibetan: {
@@ -12200,8 +10028,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tibetan'>;
   };
   Noto_Serif_Toto: {
@@ -12213,8 +10039,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'toto'>;
   };
   Noto_Serif_Vithkuqi: {
@@ -12226,8 +10050,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vithkuqi'>;
   };
   Noto_Serif_Yezidi: {
@@ -12239,8 +10061,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'yezidi'>;
   };
   Noto_Traditional_Nushu: {
@@ -12253,80 +10073,60 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'nushu'>;
   };
   Nova_Cut: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nova_Flat: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nova_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek' | 'latin'>;
   };
   Nova_Oval: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nova_Round: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nova_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nova_Slim: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nova_Square: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Numans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Nunito: {
@@ -12345,8 +10145,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12367,8 +10165,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12377,40 +10173,30 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'yi'>;
   };
   Odibee_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Odor_Mean_Chey: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Offside: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Oi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -12425,8 +10211,6 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12435,32 +10219,24 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ole: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Oleo_Script: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Oleo_Script_Swash_Caps: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Onest: {
@@ -12479,16 +10255,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Oooh_Baby: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Open_Sans: {
@@ -12502,8 +10274,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -12521,16 +10291,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Orbit: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Orbitron: {
@@ -12544,40 +10310,30 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Oregano: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Orelega_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Orienta: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Original_Surfer: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Oswald: {
@@ -12591,8 +10347,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12613,32 +10367,24 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Over_the_Rainbow: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Overlock: {
     weight: '400' | '700' | '900' | Array<'400' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Overlock_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Overpass: {
@@ -12657,8 +10403,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12673,8 +10417,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12683,8 +10425,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Oxanium: {
@@ -12699,80 +10439,60 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Oxygen: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Oxygen_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   PT_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   PT_Sans: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   PT_Sans_Caption: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   PT_Sans_Narrow: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   PT_Serif: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   PT_Serif_Caption: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Pacifico: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12781,16 +10501,12 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'myanmar'>;
   };
   Padyakke_Expanded_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Palanquin: {
@@ -12805,8 +10521,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Palanquin_Dark: {
@@ -12818,24 +10532,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Palette_Mosaic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Pangolin: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -12844,40 +10552,30 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Parisienne: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Passero_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Passion_One: {
     weight: '400' | '700' | '900' | Array<'400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Passions_Conflict: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Pathway_Extreme: {
@@ -12896,104 +10594,78 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Pathway_Gothic_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Patrick_Hand: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Patrick_Hand_SC: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Pattaya: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Patua_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Pavanam: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Paytone_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Peddana: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Peralta: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Permanent_Marker: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Petemoss: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Petit_Formal_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Petrona: {
@@ -13012,16 +10684,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Philosopher: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'vietnamese'>;
   };
   Phudu: {
@@ -13036,8 +10704,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Piazzolla: {
@@ -13056,8 +10722,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -13072,24 +10736,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Pinyon_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Pirata_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Pixelify_Sans: {
@@ -13101,24 +10759,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Plaster: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Play: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -13132,8 +10784,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Playfair: {
@@ -13148,8 +10798,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -13165,16 +10813,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Playfair_Display_SC: {
     weight: '400' | '700' | '900' | Array<'400' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Playpen_Sans: {
@@ -13190,8 +10834,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'emoji' | 'latin' | 'latin-ext' | 'math' | 'vietnamese'>;
   };
   Plus_Jakarta_Sans: {
@@ -13206,8 +10848,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Podkova: {
@@ -13220,8 +10860,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -13230,16 +10868,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Poller_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Poltawski_Nowy: {
@@ -13251,24 +10885,18 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Poly: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Pompiere: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Pontano_Sans: {
@@ -13281,16 +10909,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Poor_Story: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Poppins: {
@@ -13309,72 +10933,54 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Port_Lligat_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Port_Lligat_Slab: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Potta_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Pragati_Narrow: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Praise: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Prata: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'vietnamese'>;
   };
   Preahvihear: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Press_Start_2P: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -13390,24 +10996,18 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Princess_Sofia: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Prociono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Prompt: {
@@ -13426,16 +11026,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Prosto_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Proza_Libre: {
@@ -13448,8 +11044,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Public_Sans: {
@@ -13468,80 +11062,60 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Puppies_Play: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Puritan: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Purple_Purse: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Qahiri: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin'>;
   };
   Quando: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Quantico: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Quattrocento: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Quattrocento_Sans: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Questrial: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Quicksand: {
@@ -13554,32 +11128,24 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Quintessential: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Qwigley: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Qwitcher_Grypen: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   REM: {
@@ -13598,16 +11164,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Racing_Sans_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Radio_Canada: {
@@ -13620,8 +11182,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'canadian-aboriginal' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -13630,8 +11190,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rajdhani: {
@@ -13644,16 +11202,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Rakkas: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Raleway: {
@@ -13672,8 +11226,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -13682,72 +11234,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ramabhadra: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Ramaraja: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Rambla: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rammetto_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rampart_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Ranchers: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rancho: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Ranga: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Rasa: {
@@ -13760,24 +11294,18 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Rationale: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Ravi_Prakash: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Readex_Pro: {
@@ -13791,8 +11319,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Recursive: {
@@ -13808,8 +11334,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900' | '1000'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Red_Hat_Display: {
@@ -13824,8 +11348,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Red_Hat_Mono: {
@@ -13838,8 +11360,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Red_Hat_Text: {
@@ -13852,8 +11372,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Red_Rose: {
@@ -13866,32 +11384,24 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Redacted: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Redacted_Script: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Redressed: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Reem_Kufi: {
@@ -13903,8 +11413,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Reem_Kufi_Fun: {
@@ -13916,32 +11424,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Reem_Kufi_Ink: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Reenie_Beanie: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Reggae_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Rethink_Sans: {
@@ -13954,64 +11454,48 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Revalia: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rhodium_Libre: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Ribeye: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ribeye_Marrow: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Righteous: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Risque: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Road_Rage: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Roboto: {
@@ -14025,8 +11509,6 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '500' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14053,8 +11535,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14091,8 +11571,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14114,8 +11592,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14141,8 +11617,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -14163,8 +11637,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14179,32 +11651,24 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Rock_3D: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Rock_Salt: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   RocknRoll_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Rokkitt: {
@@ -14223,24 +11687,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Romanesco: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ropa_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rosario: {
@@ -14253,40 +11711,30 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Rosarivo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rouge_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Rowdies: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Rozha_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Rubik: {
@@ -14301,8 +11749,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'arabic' | 'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14311,8 +11757,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14321,8 +11765,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14331,8 +11773,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14347,8 +11787,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14357,8 +11795,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14367,8 +11803,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14377,8 +11811,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14387,8 +11819,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14403,8 +11833,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14419,8 +11847,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14429,8 +11855,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14439,8 +11863,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14449,8 +11871,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14465,8 +11885,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14481,8 +11899,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14491,8 +11907,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14501,8 +11915,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14511,16 +11923,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Rubik_Moonrocks: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14529,8 +11937,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14539,8 +11945,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14549,8 +11953,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14565,8 +11967,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14575,8 +11975,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14585,8 +11983,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14595,8 +11991,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'hebrew' | 'latin' | 'latin-ext'
     >;
@@ -14612,64 +12006,48 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Rufina: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ruge_Boogie: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Ruluko: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Rum_Raisin: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Ruslan_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Russo_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Ruthie: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Ruwudu: {
@@ -14681,16 +12059,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Rye: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   STIX_Two_Text: {
@@ -14702,8 +12076,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -14717,24 +12089,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sahitya: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin'>;
   };
   Sail: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Saira: {
@@ -14753,8 +12119,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Saira_Condensed: {
@@ -14773,8 +12137,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Saira_Extra_Condensed: {
@@ -14793,8 +12155,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Saira_Semi_Condensed: {
@@ -14813,40 +12173,30 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Saira_Stencil_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Salsa: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sanchez: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sancreek: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sansita: {
@@ -14858,8 +12208,6 @@ export type Fonts = {
       | Array<'400' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sansita_Swashed: {
@@ -14874,8 +12222,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sarabun: {
@@ -14891,24 +12237,18 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Sarala: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Sarina: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sarpanch: {
@@ -14922,48 +12262,36 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Sassy_Frass: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Satisfy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sawarabi_Gothic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sawarabi_Mincho: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Scada: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext'>;
   };
   Scheherazade_New: {
@@ -14975,8 +12303,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Schibsted_Grotesk: {
@@ -14990,56 +12316,42 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Schoolbell: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Scope_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Seaweed_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Secular_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Sedgwick_Ave: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sedgwick_Ave_Display: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sen: {
@@ -15052,56 +12364,42 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Send_Flowers: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sevillana: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Seymour_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Shadows_Into_Light: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Shadows_Into_Light_Two: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Shalimar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Shantell_Sans: {
@@ -15115,8 +12413,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -15125,48 +12421,36 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Share: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Share_Tech: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Share_Tech_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Shippori_Antique: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Shippori_Antique_B1: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Shippori_Mincho: {
@@ -15179,8 +12463,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Shippori_Mincho_B1: {
@@ -15193,64 +12475,48 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Shizuru: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Shojumaru: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Short_Stack: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Shrikhand: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gujarati' | 'latin' | 'latin-ext'>;
   };
   Siemreap: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer'>;
   };
   Sigmar: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sigmar_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Signika: {
@@ -15263,8 +12529,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Signika_Negative: {
@@ -15277,111 +12541,83 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Silkscreen: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Simonetta: {
     weight: '400' | '900' | Array<'400' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Single_Day: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
   };
   Sintony: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sirin_Stencil: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Six_Caps: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Skranji: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Slabo_13px: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Slabo_27px: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Slackey: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Slackside_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Smokum: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Smooch: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Smooch_Sans: {
@@ -15400,56 +12636,42 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Smythe: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sniglet: {
     weight: '400' | '800' | Array<'400' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Snippet: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Snowburst_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sofadi_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sofia: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sofia_Sans: {
@@ -15480,8 +12702,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -15514,8 +12734,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -15548,8 +12766,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -15582,8 +12798,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'greek' | 'latin' | 'latin-ext'
     >;
@@ -15592,8 +12806,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Solway: {
@@ -15606,8 +12818,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sometype_Mono: {
@@ -15619,16 +12829,12 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Song_Myung: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sono: {
@@ -15643,16 +12849,12 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sonsie_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sora: {
@@ -15668,16 +12870,12 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sorts_Mill_Goudy: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Source_Code_Pro: {
@@ -15693,8 +12891,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -15718,8 +12914,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -15743,8 +12937,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -15764,24 +12956,18 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Space_Mono: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Special_Elite: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Spectral: {
@@ -15796,8 +12982,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Spectral_SC: {
@@ -15812,40 +12996,30 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Spicy_Rice: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Spinnaker: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Spirax: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Splash: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Spline_Sans: {
@@ -15858,8 +13032,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Spline_Sans_Mono: {
@@ -15872,88 +13044,66 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Squada_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Square_Peg: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Sree_Krushnadevaraya: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Sriracha: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Srisakdi: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Staatliches: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Stalemate: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Stalinist_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Stardos_Stencil: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Stick: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Stick_No_Bills: {
@@ -15968,136 +13118,102 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sinhala'>;
   };
   Stint_Ultra_Condensed: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Stint_Ultra_Expanded: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Stoke: {
     weight: '300' | '400' | Array<'300' | '400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Strait: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Style_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Stylish: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sue_Ellen_Francisco: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Suez_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext'>;
   };
   Sulphur_Point: {
     weight: '300' | '400' | '700' | Array<'300' | '400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Sumana: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Sunflower: {
     weight: '300' | '500' | '700' | Array<'300' | '500' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sunshiney: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Supermercado_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Sura: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Suranna: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Suravaram: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Suwannaphum: {
@@ -16110,24 +13226,18 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Swanky_and_Moo_Moo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Syncopate: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Syne: {
@@ -16140,32 +13250,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'greek' | 'latin' | 'latin-ext'>;
   };
   Syne_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Syne_Tactile: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Tai_Heritage_Pro: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tai-viet' | 'vietnamese'>;
   };
   Tajawal: {
@@ -16180,40 +13282,30 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin'>;
   };
   Tangerine: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Tapestry: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Taprom: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'khmer' | 'latin'>;
   };
   Tauri: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Taviraj: {
@@ -16232,8 +13324,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Teko: {
@@ -16246,8 +13336,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Tektur: {
@@ -16261,8 +13349,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -16276,32 +13362,24 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Tenali_Ramakrishna: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Tenor_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Text_Me_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Texturina: {
@@ -16320,40 +13398,30 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Thasadith: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   The_Girl_Next_Door: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   The_Nautigal: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Tienne: {
     weight: '400' | '700' | '900' | Array<'400' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Tillana: {
@@ -16366,48 +13434,36 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Tilt_Neon: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Tilt_Prism: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Tilt_Warp: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Timmana: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'telugu'>;
   };
   Tinos: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -16423,72 +13479,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'bengali' | 'latin' | 'latin-ext'>;
   };
   Tiro_Devanagari_Hindi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Tiro_Devanagari_Marathi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Tiro_Devanagari_Sanskrit: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Tiro_Gurmukhi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'gurmukhi' | 'latin' | 'latin-ext'>;
   };
   Tiro_Kannada: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'kannada' | 'latin' | 'latin-ext'>;
   };
   Tiro_Tamil: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'tamil'>;
   };
   Tiro_Telugu: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'telugu'>;
   };
   Titan_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Titillium_Web: {
@@ -16502,8 +13540,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '600' | '700' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Tomorrow: {
@@ -16522,8 +13558,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Tourney: {
@@ -16542,24 +13576,18 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Trade_Winds: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Train_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Trirong: {
@@ -16578,8 +13606,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'thai' | 'vietnamese'>;
   };
   Trispace: {
@@ -16595,24 +13621,18 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Trocchi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Trochut: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Truculenta: {
@@ -16631,16 +13651,12 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Trykker: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Tsukimi_Rounded: {
@@ -16653,16 +13669,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Tulpen_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Turret_Road: {
@@ -16676,16 +13688,12 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Twinkle_Star: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Ubuntu: {
@@ -16697,8 +13705,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -16712,8 +13718,6 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -16727,8 +13731,6 @@ export type Fonts = {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -16742,16 +13744,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'tibetan'>;
   };
   Ultra: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Unbounded: {
@@ -16767,8 +13765,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -16777,72 +13773,54 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Underdog: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Unica_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   UnifrakturCook: {
     weight: '700' | Array<'700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   UnifrakturMaguntia: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Unkempt: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Unlock: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Unna: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Updock: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Urbanist: {
@@ -16861,40 +13839,30 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   VT323: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Vampiro_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Varela: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Varela_Round: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'hebrew' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Varta: {
@@ -16907,16 +13875,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Vast_Shadow: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Vazirmatn: {
@@ -16935,8 +13899,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin' | 'latin-ext'>;
   };
   Vesper_Libre: {
@@ -16948,16 +13910,12 @@ export type Fonts = {
       | Array<'400' | '500' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Viaoda_Libre: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -16966,16 +13924,12 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'arabic' | 'latin'>;
   };
   Vibur: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Victor_Mono: {
@@ -16990,8 +13944,6 @@ export type Fonts = {
       | Array<'100' | '200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -17005,40 +13957,30 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Viga: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Vina_Sans: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Voces: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Volkhov: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Vollkorn: {
@@ -17052,8 +13994,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800' | '900'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -17072,8 +14012,6 @@ export type Fonts = {
       | Array<'400' | '600' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -17082,64 +14020,48 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Vujahday_Script: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Waiting_for_the_Sunrise: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Wallpoet: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Walter_Turncoat: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Warnes: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Water_Brush: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Waterfall: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Wavefont: {
@@ -17168,47 +14090,35 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
   };
   Wellfleet: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Wendy_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Whisper: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   WindSong: {
     weight: '400' | '500' | Array<'400' | '500'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Wire_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Wix_Madefor_Display: {
@@ -17221,8 +14131,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -17237,8 +14145,6 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '800'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -17259,16 +14165,12 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Xanh_Mono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Yaldevi: {
@@ -17282,8 +14184,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'sinhala'>;
   };
   Yanone_Kaffeesatz: {
@@ -17297,8 +14197,6 @@ export type Fonts = {
       | Array<'200' | '300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Yantramanav: {
@@ -17312,40 +14210,30 @@ export type Fonts = {
       | Array<'100' | '300' | '400' | '500' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Yatra_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'devanagari' | 'latin' | 'latin-ext'>;
   };
   Yellowtail: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Yeon_Sung: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Yeseva_One: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       'cyrillic' | 'cyrillic-ext' | 'latin' | 'latin-ext' | 'vietnamese'
     >;
@@ -17354,24 +14242,18 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Yomogi: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Young_Serif: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Yrsa: {
@@ -17384,8 +14266,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext' | 'vietnamese'>;
   };
   Ysabeau: {
@@ -17416,8 +14296,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -17455,8 +14333,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -17494,8 +14370,6 @@ export type Fonts = {
         >;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -17533,8 +14407,6 @@ export type Fonts = {
         >;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<
       | 'cyrillic'
       | 'cyrillic-ext'
@@ -17548,96 +14420,72 @@ export type Fonts = {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Yuji_Hentaigana_Akari: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Yuji_Hentaigana_Akebono: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Yuji_Mai: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Yuji_Syuku: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Yusei_Magic: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   ZCOOL_KuaiLe: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   ZCOOL_QingKe_HuangYou: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   ZCOOL_XiaoWei: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Zen_Antique: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek' | 'latin' | 'latin-ext'>;
   };
   Zen_Antique_Soft: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek' | 'latin' | 'latin-ext'>;
   };
   Zen_Dots: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Zen_Kaku_Gothic_Antique: {
@@ -17650,8 +14498,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Zen_Kaku_Gothic_New: {
@@ -17664,24 +14510,18 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'latin' | 'latin-ext'>;
   };
   Zen_Kurenaido: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek' | 'latin' | 'latin-ext'>;
   };
   Zen_Loop: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Zen_Maru_Gothic: {
@@ -17694,8 +14534,6 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek' | 'latin' | 'latin-ext'>;
   };
   Zen_Old_Mincho: {
@@ -17708,32 +14546,24 @@ export type Fonts = {
       | Array<'400' | '500' | '600' | '700' | '900'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'cyrillic' | 'greek' | 'latin' | 'latin-ext'>;
   };
   Zen_Tokyo_Zoo: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Zeyada: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Zhi_Mang_Xing: {
     weight: '400' | Array<'400'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin'>;
   };
   Zilla_Slab: {
@@ -17746,16 +14576,12 @@ export type Fonts = {
       | Array<'300' | '400' | '500' | '600' | '700'>;
     style?: 'normal' | 'italic' | Array<'normal' | 'italic'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
   Zilla_Slab_Highlight: {
     weight: '400' | '700' | Array<'400' | '700'>;
     style?: 'normal' | Array<'normal'>;
     display?: Display;
-    fallback?: string[];
-    adjustFontFallback?: boolean;
     subsets?: Array<'latin' | 'latin-ext'>;
   };
 };
