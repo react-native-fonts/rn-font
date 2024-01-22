@@ -1,4 +1,5 @@
 import { validateGoogleFont } from './validate-google-font';
+import { getFontsUrl } from './get-fonts-url';
 
 type FontLoaderProps<T> = {
   fontName: string;
@@ -11,12 +12,10 @@ export const googleFontLoader = async <T>({
   fontName,
   data,
 }: FontLoaderProps<T>): FontLoaderResult => {
-  const { fontFamily, display, weights, subsets, styles } = validateGoogleFont(
-    fontName,
-    data
-  );
+  const fontData = validateGoogleFont(fontName, data);
 
-  console.log(fontFamily, display, weights, subsets, styles);
+  const url = getFontsUrl(fontData);
 
+  console.log(url);
   return {};
 };
