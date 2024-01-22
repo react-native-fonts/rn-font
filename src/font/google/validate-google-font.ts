@@ -2,11 +2,28 @@ import { googleFontsMetadata } from './google-fonts-metadata';
 import { formatValues } from './formatValues';
 import { CodedError } from '../../errors/CodedError';
 import fontData from './font-data.json';
+import type { Display } from '../types';
 
 const displayValues = ['auto', 'block', 'swap', 'fallback', 'optional'];
 
-export const validateGoogleFont = <T>(fontName: string, fontOptions: T) => {
-  let { weight, style, display = 'swap', subsets } = fontOptions as any;
+type ValidateGoogleFontResult = {
+  fontFamily: keyof typeof fontData;
+  weights: string[];
+  styles: string[];
+  display: Display;
+  subsets: string[];
+};
+
+export const validateGoogleFont = <T>(
+  fontName: string,
+  fontOptions: T
+): ValidateGoogleFontResult => {
+  let {
+    weight,
+    style = 'normal',
+    display = 'swap',
+    subsets,
+  } = fontOptions as any;
 
   if (fontName === '') {
     throw new CodedError('FONT_NAME', 'Please specify a font name');
