@@ -23,8 +23,6 @@ export const getFontsUrl = (options: {
     })
     .join(';');
 
-  console.log('weights', weights);
-
   const url = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(
     options.fontFamily
   )}:ital,wght@${weights}&display=${options.display}`;

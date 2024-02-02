@@ -1,22 +1,16 @@
 import * as React from 'react';
 
 import {StyleSheet, View, Text} from 'react-native';
-import {useFont} from 'rn-font';
+import {usePoppins} from 'rn-font';
 
 export default function App() {
-  const {isLoaded} = useFont({
-    fontFamily: 'ABeeZee',
-    options: {
-      weight: ['400'],
-      display: 'swap',
-    },
+  const {isLoaded} = usePoppins({
+    weight: ['400'],
   });
-
-  console.log(isLoaded);
 
   return (
     <View style={styles.container}>
-      <Text>{isLoaded}</Text>
+      <Text>{isLoaded.toString()} asd</Text>
     </View>
   );
 }

@@ -14,8 +14,7 @@ export const googleFontLoader = async <T>({
 }: FontLoaderProps<T>): FontLoaderResult => {
   const fontData = validateGoogleFont(fontName, data);
 
-  const url = getFontsUrl(fontData);
+  getFontsUrl(fontData);
 
-  console.log(url);
   return {};
 };
