@@ -5,7 +5,7 @@ import type { NodePath } from '@babel/traverse';
 import type { ImportDeclaration } from '@babel/types';
 
 export default function (): PluginObj {
-  const importedModules = new Set<string>();
+  const importedFonts = new Set<string>();
 
   return {
     visitor: {
@@ -13,8 +13,10 @@ export default function (): PluginObj {
         const sourceValue = nodePath.node.source.value;
         if (sourceValue.includes('rn-font')) {
           nodePath.node.specifiers.forEach((specifier) => {
-            if (specifier.local && specifier.local.name) {
-              importedModules.add(specifier.local.name.split('use')[1]);
+            const importedModule = specifier?.local?.name;
+
+            if (importedModule.split('use').length > 1) {
+              importedFonts.add(importedModule.split('use')[1]!);
             }
           });
         }
@@ -23,7 +25,7 @@ export default function (): PluginObj {
     post() {
       fs.writeFile(
         path.join(__dirname, '../font/test.txt'),
-        Array.from(importedModules).join('\n'),
+        Array.from(importedFonts).join('\n'),
         (err) => {
           if (err) {
             console.error(err);
