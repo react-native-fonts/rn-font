@@ -1,0 +1,17 @@
+{
+  "Inter": {
+    "weight": [
+      "400",
+      "500"
+    ],
+    "style": [
+      "normal"
+    ],
+    "display": [
+      "swap"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  }
+}

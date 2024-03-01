@@ -9,8 +9,9 @@
   "source": "src/index",
   "files": [
     "src",
-    "plugin/index.js",
+    "plugin",
     "plugin/build/index.js",
+    "plugin/index.js",
     "lib",
     "android",
     "ios",

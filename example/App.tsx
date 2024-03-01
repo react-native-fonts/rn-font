@@ -1,16 +1,29 @@
 import * as React from 'react';
-
 import {StyleSheet, View, Text} from 'react-native';
-import {usePoppins} from 'rn-font';
+import {usePoppins, useInter} from 'rn-font';
+import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = usePoppins({
-    weight: ['400'],
+  const {} = usePoppins({
+    weight: '600',
+    style: 'normal',
+    display: 'swap',
+    subsets: ['latin'],
   });
+
+  const {isLoaded} = useInter({
+    weight: ['500'],
+    style: 'normal',
+    display: 'swap',
+    subsets: ['latin'],
+  });
+
+  console.log('teajssad');
 
   return (
     <View style={styles.container}>
-      <Text>{isLoaded.toString()} asd</Text>
+      <Text>{isLoaded.toString()} ahsd</Text>
+      <Comp />
     </View>
   );
 }
