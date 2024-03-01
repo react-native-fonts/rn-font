@@ -5,12 +5,6 @@ type GoogleFontsMetadata = {
     weights: string[];
     styles: string[];
     subsets: string[];
-    axes?: Array<{
-      tag: string;
-      min: number;
-      max: number;
-      defaultValue: number;
-    }>;
   };
 };
 

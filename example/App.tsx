@@ -12,17 +12,16 @@ export default function App() {
   });
 
   const {isLoaded} = useInter({
-    weight: ['500'],
-    style: 'normal',
-    display: 'swap',
-    subsets: ['latin'],
+    weight: ['500', '300'],
+    style: ['normal'],
+    subsets: ['latin-ext'],
   });
 
-  console.log('teajssad');
+  console.log('tes421tg');
 
   return (
     <View style={styles.container}>
-      <Text>{isLoaded.toString()} ahsd</Text>
+      <Text>{isLoaded.toString()}</Text>
       <Comp />
     </View>
   );

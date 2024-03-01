@@ -1,8 +1,25 @@
 import * as fs from 'fs';
 import path from 'path';
 import type { PluginObj } from '@babel/core';
+import type { ArgumentPlaceholder as BabelArgumentPlaceholder } from '@babel/types';
 import { parseFontUsages } from './parseFontUsages';
 import { readFontAxesFilesPath } from './readFontAxesFilesPath';
+import type { Font, FontOptions } from './types';
+
+interface ArgumentPlaceholder extends BabelArgumentPlaceholder {
+  properties: any[];
+}
+
+interface PropertiesItem {
+  key: {
+    name: FontOptions;
+  };
+  value: {
+    type: string;
+    value: string;
+    elements: { value: string }[];
+  };
+}
 
 export default function (): PluginObj {
   const importedFonts: string[] = [];
@@ -11,12 +28,11 @@ export default function (): PluginObj {
   console.log(filePath);
   return {
     visitor: {
-      Program(_: any, state) {
+      Program(_, state) {
         const fileGlobalPath = state.filename;
-        // const fileNameTemp = filePath?.split('/').pop();
         const fileRootPath = fileGlobalPath?.split(process.cwd()).pop();
         const fileExtension = fileRootPath?.split('.').pop();
-        console.log('Currently processing file:', fileRootPath);
+
         if (fileExtension !== 'ts' && fileExtension !== 'tsx') return;
 
         const filePathWithoutExtension = fileRootPath?.split('.').shift();
@@ -38,51 +54,57 @@ export default function (): PluginObj {
           });
         }
       },
-      CallExpression(path) {
-        const callee = path.get('callee');
+      CallExpression: {
+        enter(babelPath) {
+          const callee = babelPath.get('callee');
 
-        if (!callee.isIdentifier()) return;
-        if (!importedFonts.includes(callee.node.name.slice(3))) return;
-        //@ts-ignore
-        const value = path.node?.arguments?.[0]?.properties?.reduce(
-          (acc: any, v: any) => {
-            acc[v.key.name] =
-              v.value.type === 'StringLiteral'
-                ? v.value.value
-                : v.value.elements?.map((item: any) => item?.value);
-            return acc;
-          },
-          {}
-        );
-        const fontName = callee.node.name.slice(3);
-        if (!fontCache[fontName]) {
-          fontCache[fontName] = {
-            weight:
-              typeof value.weight === 'string' ? [value.weight] : value.weight,
-            style:
-              typeof value.style === 'string' ? [value.style] : value.style,
-            display:
-              typeof value.display === 'string'
-                ? [value.display]
-                : value.display,
-            subsets:
-              typeof value.subsets === 'string'
-                ? [value.subsets]
-                : value.subsets,
-          };
-          return;
-        }
+          if (!callee.isIdentifier()) return;
+          if (!importedFonts.includes(callee.node.name.slice(3))) return;
 
-        ['weight', 'style', 'display', 'subsets'].forEach((prop) => {
-          const cacheProp = fontCache[fontName][prop];
-          const valueProp = value[prop];
-          if (typeof valueProp === 'string') {
-            cacheProp.push(valueProp);
-          } else if (Array.isArray(valueProp)) {
-            cacheProp.push(...valueProp);
+          const babelArguments = babelPath.node
+            ?.arguments as ArgumentPlaceholder[];
+
+          const value = babelArguments?.[0]?.properties?.reduce(
+            (acc: Font, v: PropertiesItem) => {
+              //@ts-ignore
+              acc[v.key.name] =
+                v.value.type === 'StringLiteral'
+                  ? v.value.value
+                  : v.value.elements?.map(
+                      (item: { value: string }) => item.value
+                    );
+              return acc;
+            },
+            {}
+          ) as Font;
+          console.log(value);
+          const fontName = callee.node.name.slice(3);
+          if (!fontCache[fontName]) {
+            fontCache[fontName] = {
+              weight:
+                typeof value?.weight === 'string'
+                  ? [value.weight]
+                  : value.weight,
+              style:
+                typeof value?.style === 'string' ? [value.style] : value.style,
+              display: value.display ? [value.display] : undefined,
+              subsets: value.subsets,
+            };
+            return;
           }
-          fontCache[fontName][prop] = [...new Set(cacheProp)];
-        });
+          // validate double usage of the same font in the same file
+          const options = ['weight', 'style', 'display', 'subsets'] as const;
+          options.forEach((option) => {
+            const cacheProp = fontCache[fontName][option];
+            const valueProp = value[option];
+            if (typeof valueProp === 'string') {
+              cacheProp?.push(valueProp);
+            } else if (Array.isArray(valueProp)) {
+              cacheProp?.push(...valueProp);
+            }
+            fontCache[fontName][option] = [...new Set(cacheProp)];
+          });
+        },
       },
     },
     post() {
@@ -94,17 +116,17 @@ export default function (): PluginObj {
 
         const folderPath = path.join(
           __dirname,
-          `../font${
+          `../fontsOptions${
             folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
           }`
         );
 
-        if (!fs.existsSync(folderPath)) {
+        if (!fs.existsSync(folderPath) && folderPathWithoutFileName) {
           fs.mkdirSync(folderPath, { recursive: true });
         }
 
         fs.writeFileSync(
-          path.join(__dirname, `../font/${filePath}.json`),
+          path.join(__dirname, `../fontsOptions/${filePath}.json`),
           JSON.stringify(fontCache, null, 2),
           { flag: 'w' }
         );

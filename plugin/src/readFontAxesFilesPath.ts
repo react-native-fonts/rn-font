@@ -19,7 +19,7 @@ export const readFontAxesFilesPath = () => {
       console.error('Błąd podczas odczytywania folderu:', err);
     }
   };
-  const directoryPath = path.join(__dirname, '../font');
+  const directoryPath = path.join(__dirname, '../fontsOptions');
   readDirectoryRecursively(directoryPath);
 
   return fontFilesPaths;

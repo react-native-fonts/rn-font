@@ -42,6 +42,14 @@ export const validateGoogleFont = <T>(
 
   const possibleSubsets = fontFamilyData?.subsets;
 
+  if (!(subsets instanceof Array))
+    throw new CodedError(
+      'FONT_SUBSETS',
+      `Subset must be an array.\nAvailable subsets: ${formatValues(
+        possibleSubsets
+      )}`
+    );
+
   subsets?.forEach((subset: string) => {
     if (!possibleSubsets?.includes(subset)) {
       throw new CodedError(
@@ -96,6 +104,14 @@ export const validateGoogleFont = <T>(
       );
     }
   });
+
+  if (display !== 'auto' && typeof display !== 'string')
+    throw new CodedError(
+      'FONT_DISPLAY',
+      `Display must be a string.\nAvailable display values: ${formatValues(
+        displayValues
+      )}`
+    );
 
   if (!displayValues.includes(display)) {
     throw new CodedError(
