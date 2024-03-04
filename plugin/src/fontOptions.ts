@@ -48,7 +48,7 @@ namespace fontOptions {
     return fontFilesPaths;
   }
 
-  export function createFontAxesFile(filePath: string, fontCache: any) {
+  export function createFontOptionsFile(filePath: string, fontCache: any) {
     const folderPathWithoutFileName = filePath
       .split('/')
       .slice(0, -1)
@@ -56,7 +56,7 @@ namespace fontOptions {
 
     const folderPath = path.join(
       __dirname,
-      `../font${
+      `../fontsOptions${
         folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
       }`
     );
@@ -65,10 +65,11 @@ namespace fontOptions {
       fs.mkdirSync(folderPath, { recursive: true });
     }
 
-    const jsonPath = path.join(__dirname, `../font/${filePath}.json`);
-    fs.writeFileSync(jsonPath, JSON.stringify(fontCache, null, 2), {
-      flag: 'w',
-    });
+    const jsonPath = path.join(__dirname, `../fontsOptions/${filePath}.json`);
+    if (filePath && Boolean(fontCache))
+      fs.writeFileSync(jsonPath, JSON.stringify(fontCache, null, 2), {
+        flag: 'w',
+      });
   }
 }
 

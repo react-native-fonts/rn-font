@@ -1,3 +1,4 @@
+import path from 'path';
 import type { PluginObj } from '@babel/core';
 import type { ArgumentPlaceholder as BabelArgumentPlaceholder } from '@babel/types';
 import { parseFontUsages } from './parseFontUsages';
@@ -33,7 +34,13 @@ export default function (): PluginObj {
         const fileRootPath = fileGlobalPath?.split(process.cwd()).pop();
         const fileExtension = fileRootPath?.split('.').pop();
 
-        if (fileExtension !== 'ts' && fileExtension !== 'tsx') return;
+        if (
+          fileExtension !== 'ts' &&
+          fileExtension !== 'tsx' &&
+          fileExtension !== 'js' &&
+          fileExtension !== 'jsx'
+        )
+          return;
 
         const filePathWithoutExtension = fileRootPath?.split('.').shift();
 
@@ -43,7 +50,14 @@ export default function (): PluginObj {
       },
       ImportDeclaration(nodePath) {
         const sourceValue = nodePath.node.source.value;
-        if (sourceValue.includes('rn-font')) {
+
+        const isReactNativeFonts =
+          sourceValue ===
+          (process.env.BABEL_ENV === 'development'
+            ? path.join(__dirname, '../../src/index')
+            : '@react-native-fonts/fonts');
+
+        if (isReactNativeFonts) {
           nodePath.node.specifiers?.forEach((specifier) => {
             const importedModule = specifier?.local?.name;
 
@@ -109,7 +123,7 @@ export default function (): PluginObj {
     post() {
       try {
         fontOptions.watchDirChanges();
-        fontOptions.createFontAxesFile(filePath, fontCache);
+        fontOptions.createFontOptionsFile(filePath, fontCache);
       } catch (err) {
         console.error(err);
       }

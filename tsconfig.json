@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "rn-font": ["./src/index"]
+      "@react-native-fonts/fonts": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

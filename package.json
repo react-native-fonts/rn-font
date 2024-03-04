@@ -1,5 +1,5 @@
 {
-  "name": "rn-font",
+  "name": "@react-native-fonts/fonts",
   "version": "0.1.0",
   "description": "fonts for RN",
   "main": "lib/commonjs/index",
@@ -44,14 +44,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-fonts/rn-font.git"
+    "url": "git+https://github.com/react-native-fonts/fonts.git"
   },
   "author": "react-native-fonts <moskalakamil07@gmail.com> (https://github.com/react-native-fonts)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-fonts/rn-font/issues"
+    "url": "https://github.com/react-native-fonts/fonts/issues"
   },
-  "homepage": "https://github.com/react-native-fonts/rn-font#readme",
+  "homepage": "https://github.com/react-native-fonts/fonts#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

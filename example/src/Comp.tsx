@@ -1,18 +1,18 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {usePoppins} from 'rn-font';
+import {usePoppins} from '@react-native-fonts/fonts';
 
 const Comp = () => {
   const {} = usePoppins({
-    weight: '400',
-    style: 'normal',
+    weight: '500',
+    style: 'italic',
     display: 'swap',
     subsets: ['latin'],
   });
 
   return (
     <View>
-      <Text>aslmasjgfga</Text>
+      <Text>dd</Text>
     </View>
   );
 };

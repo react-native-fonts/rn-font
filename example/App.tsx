@@ -1,19 +1,21 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useInter} from 'rn-font';
+import {usePoppins} from '@react-native-fonts/fonts';
+import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = useInter({
-    weight: ['500', '300'],
+  const {isLoaded} = usePoppins({
+    weight: ['400'],
     style: ['normal'],
-    subsets: ['latin-ext'],
+    subsets: ['latin'],
   });
 
-  console.log('dwaawadd1tg');
+  console.log('asd');
 
   return (
     <View style={styles.container}>
       <Text>{isLoaded.toString()}</Text>
+      <Comp />
     </View>
   );
 }
