@@ -1,5 +1,4 @@
 import path from 'path';
-
 import fs from 'fs';
 
 namespace fontOptions {
@@ -7,7 +6,7 @@ namespace fontOptions {
     const extensions = ['.ts', '.tsx', '.js', '.jsx'];
     const filePaths = readFontOptionsFilesPath();
 
-    filePaths.forEach((filePath) => {
+    filePaths?.forEach((filePath) => {
       const componentPath = (
         process.cwd() + filePath.split('fontsOptions')[1]
       ).replace('.json', '');

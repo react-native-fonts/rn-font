@@ -1,15 +1,8 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {usePoppins, useInter} from 'rn-font';
+import {useInter} from 'rn-font';
 
 export default function App() {
-  const {} = usePoppins({
-    weight: '600',
-    style: 'normal',
-    display: 'swap',
-    subsets: ['latin'],
-  });
-
   const {isLoaded} = useInter({
     weight: ['500', '300'],
     style: ['normal'],

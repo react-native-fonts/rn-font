@@ -1,11 +1,15 @@
 import fs from 'fs';
-import type { Font, FontOptions } from './types';
+import type { ArrayedFont, FontOptions } from './types';
 
 interface ParseFontUsages {
   paths: string[];
 }
 
-export const parseFontUsages = ({ paths }: ParseFontUsages) => {
+export interface ParsedFonts {
+  [key: string]: ArrayedFont;
+}
+
+export const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
   let fontCache: any = {};
 
   paths.forEach((filePath) => {
@@ -14,12 +18,14 @@ export const parseFontUsages = ({ paths }: ParseFontUsages) => {
     Object.keys(fileJSON).forEach((fontName) => {
       if (!fontCache[fontName]) {
         fontCache[fontName] = Object.keys(fileJSON[fontName]).reduce(
-          (acc: Partial<Font>, option: string) => {
+          (acc: Partial<ArrayedFont>, option) => {
             // option = e.g. weight, subsets etc.
-            acc[option as FontOptions] =
+            const fontOption = option as FontOptions;
+
+            acc[fontOption] =
               typeof fileJSON[fontName][option] === 'string'
-                ? [fileJSON[fontName][option]]
-                : fileJSON[fontName][option];
+                ? [...new Set([fileJSON[fontName][option]])]
+                : [...new Set(fileJSON[fontName][option])];
             return acc;
           },
           {}
@@ -44,5 +50,6 @@ export const parseFontUsages = ({ paths }: ParseFontUsages) => {
       });
     });
   });
-  console.log('last fontCache', fontCache);
+
+  return fontCache;
 };

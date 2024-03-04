@@ -1,28 +1,13 @@
 {
-  "Poppins": {
+  "ABeeZee": {
     "weight": [
-      "600"
+      "400"
     ],
     "style": [
-      "normal"
+      "normal",
+      "italic"
     ],
-    "display": [
-      "swap"
-    ],
-    "subsets": [
-      "latin"
-    ]
-  },
-  "Inter": {
-    "weight": [
-      "500",
-      "300"
-    ],
-    "style": [
-      "normal"
-    ],
-    "subsets": [
-      "latin-ext"
-    ]
+    "display": [],
+    "subsets": []
   }
 }
