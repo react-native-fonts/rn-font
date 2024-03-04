@@ -100,13 +100,11 @@ export default function (): PluginObj {
                   : value.weight,
               style:
                 typeof value?.style === 'string' ? [value.style] : value.style,
-              display: value.display ? [value.display] : undefined,
-              subsets: value.subsets,
             };
             return;
           }
           // validate double usage of the same font in the same file
-          const options = ['weight', 'style', 'display', 'subsets'] as const;
+          const options = ['weight', 'style'] as const;
           options.forEach((option) => {
             const cacheProp = fontCache[fontName][option];
             const valueProp = value[option];

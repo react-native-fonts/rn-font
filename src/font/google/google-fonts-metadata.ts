@@ -4,7 +4,6 @@ type GoogleFontsMetadata = {
   [K in keyof typeof fontData]: {
     weights: string[];
     styles: string[];
-    subsets: string[];
   };
 };
 

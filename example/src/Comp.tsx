@@ -6,8 +6,6 @@ const Comp = () => {
   const {} = usePoppins({
     weight: '500',
     style: 'italic',
-    display: 'swap',
-    subsets: ['latin'],
   });
 
   return (

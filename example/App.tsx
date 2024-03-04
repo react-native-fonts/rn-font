@@ -7,7 +7,6 @@ export default function App() {
   const {isLoaded} = usePoppins({
     weight: ['400'],
     style: ['normal'],
-    subsets: ['latin'],
   });
 
   console.log('asd');

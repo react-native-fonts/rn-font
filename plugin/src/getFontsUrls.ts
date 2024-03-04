@@ -8,7 +8,7 @@ export const getFontsUrls = (fonts: ParsedFonts): string[] => {
 
     if (!font) return;
 
-    const { weight, style: styles, display: displays, subsets } = font;
+    const { weight, style: styles } = font;
 
     //number '0' before weight is for normal, '1' for italic
     //e.g. 0,400;0,700;1,400;1,700 (first must be normal, then italic)
@@ -24,19 +24,10 @@ export const getFontsUrls = (fonts: ParsedFonts): string[] => {
       })
       .join(';');
 
-    if (!displays || displays?.length === 0) {
-      const url = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(
-        fontName
-      )}:ital,wght@${weights}&subsets=${subsets.join(',')}`;
-      urls.push(url);
-    }
-
-    displays?.forEach((display) => {
-      const url = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(
-        fontName
-      )}:ital,wght@${weights}&display=${display}&subsets=${subsets.join(',')}`;
-      urls.push(url);
-    });
+    const url = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(
+      fontName
+    )}:ital,wght@${weights}`;
+    urls.push(url);
   });
 
   return urls;

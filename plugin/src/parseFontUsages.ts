@@ -19,7 +19,7 @@ export const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
       if (!fontCache[fontName]) {
         fontCache[fontName] = Object.keys(fileJSON[fontName]).reduce(
           (acc: Partial<ArrayedFont>, option) => {
-            // option = e.g. weight, subsets etc.
+            // option = e.g. weight, style etc.
             const fontOption = option as FontOptions;
 
             acc[fontOption] =
@@ -36,7 +36,7 @@ export const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
 
       // make sure all fonts usage are included
       Object.keys(fileJSON[fontName]).forEach((option) => {
-        // option = e.g. weight, subsets etc.
+        // option = e.g. weight, style etc.
         const cacheProp = fontCache[fontName][option];
         const valueProp = fileJSON[fontName][option];
 

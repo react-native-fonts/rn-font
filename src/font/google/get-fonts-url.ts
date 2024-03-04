@@ -1,10 +1,6 @@
-import type { Display } from '../types';
-
 export const getFontsUrl = (options: {
   fontFamily: string;
-  display: Display;
   weights: string[];
-  subsets: string[];
   styles: string[];
 }) => {
   const sortedWeights = options.weights.sort(
@@ -25,7 +21,7 @@ export const getFontsUrl = (options: {
 
   const url = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(
     options.fontFamily
-  )}:ital,wght@${weights}&display=${options.display}`;
+  )}:ital,wght@${weights}`;
 
   return url;
 };
