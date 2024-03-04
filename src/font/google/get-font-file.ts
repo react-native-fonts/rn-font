@@ -1,6 +1,6 @@
 // import fs from 'fs';
 // import https from 'https';
-// import { CodedError } from '../../errors/CodedError';
+// import { FontError } from '../../errors/FontError';
 
 async () => {
   console.log('test', process.argv);
@@ -21,6 +21,6 @@ async () => {
   //     });
   //   })
   // } else {
-  //   throw new CodedError("FONT_URL",'Unable to find font url');
+  //     FontError("FONT_URL",'Unable to find font url');
   // }
 };
