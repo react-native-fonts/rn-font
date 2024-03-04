@@ -1,10 +1,10 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {useInter} from 'rn-font';
+import {usePoppins} from 'rn-font';
 
 const Comp = () => {
-  const {} = useInter({
-    weight: ['400'],
+  const {} = usePoppins({
+    weight: '400',
     style: 'normal',
     display: 'swap',
     subsets: ['latin'],
@@ -12,7 +12,7 @@ const Comp = () => {
 
   return (
     <View>
-      <Text>asastmmzcxa</Text>
+      <Text>aslmasjgfga</Text>
     </View>
   );
 };

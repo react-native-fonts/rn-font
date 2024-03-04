@@ -1,23 +1,16 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {usePoppins, useInter} from 'rn-font';
+import {useABeeZee} from 'rn-font';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {} = usePoppins({
-    weight: '600',
-    style: 'normal',
-    display: 'swap',
+  const {isLoaded} = useABeeZee({
+    weight: ['400', '400'],
+    style: ['normal', 'italic'],
     subsets: ['latin'],
   });
 
-  const {isLoaded} = useInter({
-    weight: ['500', '300'],
-    style: ['normal'],
-    subsets: ['latin-ext'],
-  });
-
-  console.log('tes421tg');
+  console.log('test');
 
   return (
     <View style={styles.container}>

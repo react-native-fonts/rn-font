@@ -5,6 +5,8 @@ import type { ArgumentPlaceholder as BabelArgumentPlaceholder } from '@babel/typ
 import { parseFontUsages } from './parseFontUsages';
 import { readFontAxesFilesPath } from './readFontAxesFilesPath';
 import type { Font, FontOptions } from './types';
+import { getFontsUrls } from './getFontsUrls';
+import { getFontDownloadUrls } from './getFontDownloadUrls';
 
 interface ArgumentPlaceholder extends BabelArgumentPlaceholder {
   properties: any[];
@@ -25,7 +27,7 @@ export default function (): PluginObj {
   const importedFonts: string[] = [];
   let fontCache: any = {};
   let filePath: string = '';
-  console.log(filePath);
+
   return {
     visitor: {
       Program(_, state) {
@@ -40,12 +42,11 @@ export default function (): PluginObj {
         if (!filePathWithoutExtension) return;
 
         filePath = filePathWithoutExtension;
-        console.log('Currently processing file:', filePathWithoutExtension);
       },
       ImportDeclaration(nodePath) {
         const sourceValue = nodePath.node.source.value;
         if (sourceValue.includes('rn-font')) {
-          nodePath.node.specifiers.forEach((specifier) => {
+          nodePath.node.specifiers?.forEach((specifier) => {
             const importedModule = specifier?.local?.name;
 
             if (importedModule.split('use').length > 1) {
@@ -77,7 +78,7 @@ export default function (): PluginObj {
             },
             {}
           ) as Font;
-          console.log(value);
+
           const fontName = callee.node.name.slice(3);
           if (!fontCache[fontName]) {
             fontCache[fontName] = {
@@ -135,7 +136,13 @@ export default function (): PluginObj {
       }
       const fontAxesFilesPath = readFontAxesFilesPath();
 
-      parseFontUsages({ paths: fontAxesFilesPath });
+      const parsedFontValues = parseFontUsages({ paths: fontAxesFilesPath });
+      console.log('parsedFontValues', parsedFontValues);
+      const fontsUrls = getFontsUrls(parsedFontValues);
+      console.log('fontsUrls', fontsUrls);
+      const fontDownloadUrls = getFontDownloadUrls(fontsUrls);
+
+      console.log('fontDownloadUrls', fontDownloadUrls);
       fontCache = {};
     },
   };

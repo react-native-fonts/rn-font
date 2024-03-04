@@ -6,3 +6,9 @@ export type Font = {
   display: Display;
   subsets: string[];
 };
+export type ArrayedFont = {
+  style: ('normal' | 'italic')[];
+  weight: string[];
+  display: Display[];
+  subsets: string[];
+};

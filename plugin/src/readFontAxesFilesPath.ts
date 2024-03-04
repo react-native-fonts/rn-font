@@ -6,7 +6,7 @@ export const readFontAxesFilesPath = () => {
   const readDirectoryRecursively = (directoryPath: string) => {
     try {
       const files = fs.readdirSync(directoryPath);
-      files.forEach((file) => {
+      files?.forEach((file) => {
         const filePath = path.join(directoryPath, file);
         const stat = fs.statSync(filePath);
         if (stat.isDirectory()) {

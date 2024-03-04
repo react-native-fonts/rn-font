@@ -1,5 +1,11 @@
+import type { ArrayedFont } from './types';
 interface ParseFontUsages {
   paths: string[];
 }
-export declare const parseFontUsages: ({ paths }: ParseFontUsages) => void;
+export interface ParsedFonts {
+  [key: string]: ArrayedFont;
+}
+export declare const parseFontUsages: ({
+  paths,
+}: ParseFontUsages) => ParsedFonts;
 export {};
