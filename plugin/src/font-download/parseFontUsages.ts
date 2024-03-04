@@ -1,5 +1,5 @@
 import fs from 'fs';
-import type { ArrayedFont, FontOptions } from './types';
+import type { ArrayedFont, FontOptions } from '../types';
 
 interface ParseFontUsages {
   paths: string[];
@@ -9,7 +9,7 @@ export interface ParsedFonts {
   [key: string]: ArrayedFont;
 }
 
-export const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
+const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
   let fontCache: any = {};
 
   paths.forEach((filePath) => {
@@ -53,3 +53,5 @@ export const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
 
   return fontCache;
 };
+
+export default parseFontUsages;

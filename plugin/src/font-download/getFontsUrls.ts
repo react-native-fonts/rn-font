@@ -1,6 +1,6 @@
 import type { ParsedFonts } from './parseFontUsages';
 
-export const getFontsUrls = (fonts: ParsedFonts): string[] => {
+const getFontsUrls = (fonts: ParsedFonts): string[] => {
   const urls: string[] = [];
 
   Object.keys(fonts)?.forEach((fontName) => {
@@ -32,3 +32,5 @@ export const getFontsUrls = (fonts: ParsedFonts): string[] => {
 
   return urls;
 };
+
+export default getFontsUrls;

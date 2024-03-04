@@ -7,7 +7,7 @@ type Font = {
   src: string;
 };
 
-export const getFontDownloadUrls = (fontsGoogleURls: string[]) => {
+const getFontDownloadUrls = (fontsGoogleURls: string[]) => {
   // const downloadUrls: string[] = [];
 
   fontsGoogleURls?.forEach((url) => {
@@ -59,3 +59,5 @@ const parseFontFaces = (text: string): Font[] => {
   }
   return fonts;
 };
+
+export default getFontDownloadUrls;

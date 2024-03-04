@@ -1,11 +1,8 @@
 import path from 'path';
 import type { PluginObj } from '@babel/core';
 import type { ArgumentPlaceholder as BabelArgumentPlaceholder } from '@babel/types';
-import { parseFontUsages } from './parseFontUsages';
 import type { Font, FontOptions } from './types';
-import fontOptions from './fontOptions';
-import { getFontsUrls } from './getFontsUrls';
-import { getFontDownloadUrls } from './getFontDownloadUrls';
+import createFontOptionsFile from './font-options';
 
 interface ArgumentPlaceholder extends BabelArgumentPlaceholder {
   properties: any[];
@@ -120,20 +117,11 @@ export default function (): PluginObj {
     },
     post() {
       try {
-        fontOptions.watchDirChanges();
-        fontOptions.createFontOptionsFile(filePath, fontCache);
+        createFontOptionsFile(filePath, fontCache);
       } catch (err) {
         console.error(err);
       }
-      const fontAxesFilesPath = fontOptions.readFontOptionsFilesPath();
 
-      const parsedFontValues = parseFontUsages({ paths: fontAxesFilesPath });
-      console.log('parsedFontValues', parsedFontValues);
-      const fontsUrls = getFontsUrls(parsedFontValues);
-      console.log('fontsUrls', fontsUrls);
-      const fontDownloadUrls = getFontDownloadUrls(fontsUrls);
-
-      console.log('fontDownloadUrls', fontDownloadUrls);
       fontCache = {};
     },
   };
