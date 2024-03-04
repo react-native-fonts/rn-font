@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import {usePoppins, useInter} from 'rn-font';
-import Comp from './src/Comp';
 
 export default function App() {
   const {} = usePoppins({
@@ -17,12 +16,11 @@ export default function App() {
     subsets: ['latin-ext'],
   });
 
-  console.log('tes421tg');
+  console.log('dwaawadd1tg');
 
   return (
     <View style={styles.container}>
       <Text>{isLoaded.toString()}</Text>
-      <Comp />
     </View>
   );
 }

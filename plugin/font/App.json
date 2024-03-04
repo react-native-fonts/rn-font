@@ -1,0 +1,28 @@
+{
+  "Poppins": {
+    "weight": [
+      "600"
+    ],
+    "style": [
+      "normal"
+    ],
+    "display": [
+      "swap"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Inter": {
+    "weight": [
+      "500",
+      "300"
+    ],
+    "style": [
+      "normal"
+    ],
+    "subsets": [
+      "latin-ext"
+    ]
+  }
+}

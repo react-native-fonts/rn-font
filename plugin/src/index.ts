@@ -1,10 +1,8 @@
-import * as fs from 'fs';
-import path from 'path';
 import type { PluginObj } from '@babel/core';
 import type { ArgumentPlaceholder as BabelArgumentPlaceholder } from '@babel/types';
 import { parseFontUsages } from './parseFontUsages';
-import { readFontAxesFilesPath } from './readFontAxesFilesPath';
 import type { Font, FontOptions } from './types';
+import fontOptions from './fontOptions';
 
 interface ArgumentPlaceholder extends BabelArgumentPlaceholder {
   properties: any[];
@@ -109,31 +107,12 @@ export default function (): PluginObj {
     },
     post() {
       try {
-        const folderPathWithoutFileName = filePath
-          .split('/')
-          .slice(0, -1)
-          .join('/');
-
-        const folderPath = path.join(
-          __dirname,
-          `../fontsOptions${
-            folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
-          }`
-        );
-
-        if (!fs.existsSync(folderPath) && folderPathWithoutFileName) {
-          fs.mkdirSync(folderPath, { recursive: true });
-        }
-
-        fs.writeFileSync(
-          path.join(__dirname, `../fontsOptions/${filePath}.json`),
-          JSON.stringify(fontCache, null, 2),
-          { flag: 'w' }
-        );
+        fontOptions.watchDirChanges();
+        fontOptions.createFontAxesFile(filePath, fontCache);
       } catch (err) {
         console.error(err);
       }
-      const fontAxesFilesPath = readFontAxesFilesPath();
+      const fontAxesFilesPath = fontOptions.readFontOptionsFilesPath();
 
       parseFontUsages({ paths: fontAxesFilesPath });
       fontCache = {};
