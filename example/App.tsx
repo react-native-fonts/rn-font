@@ -4,16 +4,14 @@ import {useInter} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = useInter({
-    weight: ['100'],
+  const {isLoaded, style} = useInter({
+    weight: ['300'],
     style: ['normal'],
   });
 
-  console.log('asd');
-
   return (
     <View style={styles.container}>
-      <Text>{isLoaded.toString()}</Text>
+      <Text style={style}>{isLoaded.toString()}</Text>
       <Comp />
     </View>
   );

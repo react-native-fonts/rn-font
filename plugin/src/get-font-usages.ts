@@ -32,6 +32,7 @@ export const getFontUsages = (
   const callee = nodePath.get('callee');
 
   if (!callee.isIdentifier()) return;
+  // validate if the function is a font usage
   if (!importedFonts.includes(callee.node.name.slice(3))) return;
 
   const babelArguments = nodePath.node?.arguments as ArgumentPlaceholder[];
