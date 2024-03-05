@@ -13,7 +13,7 @@ export default function createFontOptionsFile(
 
   const folderPath = path.join(
     __dirname,
-    `../../fontsOptions${
+    `../fontsOptions${
       folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
     }`
   );
