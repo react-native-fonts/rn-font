@@ -1,16 +1,16 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {usePoppins} from '@react-native-fonts/fonts';
+import {useInter} from '@react-native-fonts/fonts';
 
 const Comp = () => {
-  const {} = usePoppins({
+  const {} = useInter({
     weight: '500',
-    style: 'italic',
+    style: 'normal',
   });
 
   return (
     <View>
-      <Text>dd</Text>
+      <Text>testaf</Text>
     </View>
   );
 };
