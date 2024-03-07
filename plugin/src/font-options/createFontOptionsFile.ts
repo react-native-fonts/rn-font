@@ -13,7 +13,7 @@ export default function createFontOptionsFile(
 
   const folderPath = path.join(
     __dirname,
-    `../../fontsOptions${
+    `../fontsOptions${
       folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
     }`
   );
@@ -23,7 +23,7 @@ export default function createFontOptionsFile(
   }
 
   const jsonPath = path.join(__dirname, `../fontsOptions/${filePath}.json`);
-  if (filePath && Boolean(fontCache))
+  if (filePath && Object.keys(fontCache).length > 0)
     fs.writeFileSync(jsonPath, JSON.stringify(fontCache, null, 2), {
       flag: 'w',
     });

@@ -1,11 +1,11 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {usePoppins} from '@react-native-fonts/fonts';
+import {useInter} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = usePoppins({
-    weight: ['400'],
+  const {isLoaded} = useInter({
+    weight: ['300'],
     style: ['normal'],
   });
 
@@ -13,9 +13,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: 'poppins-500-italic'}}>
-        {isLoaded.toString()}
-      </Text>
+      <Text>{isLoaded.toString()}</Text>
       <Comp />
     </View>
   );

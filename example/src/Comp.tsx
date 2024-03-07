@@ -4,7 +4,7 @@ import {Text, View} from 'react-native';
 const Comp = () => {
   return (
     <View>
-      <Text>dd</Text>
+      <Text>testaf</Text>
     </View>
   );
 };
