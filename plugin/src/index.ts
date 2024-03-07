@@ -1,8 +1,11 @@
 import path from 'path';
+
 import type { PluginObj } from '@babel/core';
 import type { ArgumentPlaceholder as BabelArgumentPlaceholder } from '@babel/types';
 import type { Font, FontOptions } from './types';
+
 import createFontOptionsFile from './font-options';
+import downloadFontFile from './font-download/';
 
 interface ArgumentPlaceholder extends BabelArgumentPlaceholder {
   properties: any[];
@@ -118,6 +121,7 @@ export default function (): PluginObj {
     post() {
       try {
         createFontOptionsFile(filePath, fontCache);
+        downloadFontFile();
       } catch (err) {
         console.error(err);
       }

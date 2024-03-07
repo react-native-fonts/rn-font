@@ -1,26 +1,27 @@
 import fetch from 'node-fetch';
 
-type Font = {
+export type Font = {
   fontFamily: string;
   fontStyle: string;
   fontWeight: string;
   src: string;
 };
 
-const getFontDownloadUrls = (fontsGoogleURls: string[]) => {
-  // const downloadUrls: string[] = [];
+export default async function getFontDownloadUrls(fontsGoogleURls: string[]) {
+  const downloadUrls: Font[] = [];
 
-  fontsGoogleURls?.forEach((url) => {
-    fetch(url)
-      .then((res) => res.text())
-      .then((text) => {
-        const fonts: Font[] = parseFontFaces(text);
-        console.log('fonts', fonts);
-      });
-  });
-};
+  const getFontFaces = async (url: string) => {
+    const res = await fetch(url);
+    const text = await res.text();
+    const fonts: Font[] = parseFontFaces(text);
+    downloadUrls.push(...fonts);
+  };
 
-const parseFontFaces = (text: string): Font[] => {
+  await Promise.all(fontsGoogleURls.map(getFontFaces));
+  return downloadUrls;
+}
+
+function parseFontFaces(text: string): Font[] {
   const fonts: Font[] = [];
   const fontFaceRegex = /@font-face\s*{([\s\S]*?)}/gm;
   let match;
@@ -58,6 +59,4 @@ const parseFontFaces = (text: string): Font[] => {
     fonts.push(font);
   }
   return fonts;
-};
-
-export default getFontDownloadUrls;
+}

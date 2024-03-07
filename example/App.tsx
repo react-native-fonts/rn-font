@@ -9,11 +9,13 @@ export default function App() {
     style: ['normal'],
   });
 
-  console.log('asd');
+  console.log('awddwadawagwa');
 
   return (
     <View style={styles.container}>
-      <Text>{isLoaded.toString()}</Text>
+      <Text style={{fontFamily: 'poppins-500-italic'}}>
+        {isLoaded.toString()}
+      </Text>
       <Comp />
     </View>
   );

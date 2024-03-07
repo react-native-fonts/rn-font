@@ -2,7 +2,6 @@ import downloadFontFile from './downloadFontFile';
 import getFontDownloadUrls, { type Font } from './getFontDownloadUrls';
 import getFontsUrls from './getFontsUrls';
 import parseFontUsages, { type ParsedFonts } from './parseFontUsages';
-
 export {
   getFontDownloadUrls,
   getFontsUrls,
