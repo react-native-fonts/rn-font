@@ -60,9 +60,17 @@ export default async function downloadFontFile() {
         console.log('Download Completed', filePath);
 
         exec(
+          // 'ls',
           process.env.BABEL_ENV === 'development'
             ? 'npx react-native-asset -a ../fonts'
-            : 'npx react-native-asset -a ./node_modules/@react-native-fonts/fonts/fonts'
+            : 'npx react-native-asset -a ./node_modules/@react-native-fonts/fonts/fonts',
+          (err, stdout, stderr) => {
+            console.log(err, stdout, stderr);
+            if (err) {
+              console.error(err, stdout, stderr);
+              return;
+            }
+          }
         );
       });
     });

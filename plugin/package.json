@@ -20,5 +20,8 @@
     "lint": "eslint --max-warnings=0 --ext .ts .",
     "typecheck": "tsc --noEmit"
   },
-  "types": "types/index.d.ts"
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "react-native-asset": "^2.1.1"
+  }
 }

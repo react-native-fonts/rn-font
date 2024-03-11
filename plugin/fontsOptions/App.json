@@ -1,6 +1,7 @@
 {
-  "Acme": {
+  "Ojuju": {
     "weight": [
+      "400",
       "300"
     ],
     "style": [

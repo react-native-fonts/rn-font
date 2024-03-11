@@ -1,19 +1,21 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useAcme} from '@react-native-fonts/fonts';
+import {useOjuju} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = useAcme({
-    weight: ['400'],
+  const {isLoaded} = useOjuju({
+    weight: ['400', '300'],
     style: ['normal'],
   });
 
-  console.log('awdadasagwa');
+  console.log('test23456');
 
   return (
     <View style={styles.container}>
-      <Text>{isLoaded.toString()}</Text>
+      <Text style={{fontFamily: 'ojuju-400-normal'}}>
+        {isLoaded.toString() + ' asdasd '}
+      </Text>
       <Comp />
     </View>
   );
