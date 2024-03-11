@@ -1,15 +1,15 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useInter} from '@react-native-fonts/fonts';
+import {useAcme} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = useInter({
-    weight: ['300'],
+  const {isLoaded} = useAcme({
+    weight: ['400'],
     style: ['normal'],
   });
 
-  console.log('awddwadawagwa');
+  console.log('awdadasagwa');
 
   return (
     <View style={styles.container}>

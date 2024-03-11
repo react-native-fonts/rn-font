@@ -12,10 +12,19 @@ import {
 } from './';
 
 export default async function downloadFontFile() {
+  console.log('Download font');
   const fontAxesFilesPath = readFontOptionsFilesPath();
   const parsedFontValues = parseFontUsages({ paths: fontAxesFilesPath });
   const fontsUrls = getFontsUrls(parsedFontValues);
   const fontDownloadUrls = await getFontDownloadUrls(fontsUrls);
+
+  console.log(
+    'fontDownloadUrls',
+    fontDownloadUrls,
+    fontsUrls,
+    parsedFontValues,
+    fontAxesFilesPath
+  );
 
   fontDownloadUrls.forEach((font: Font) => {
     const fontUrlMatch = font.src.match(/url\(([^)]+)\)/);
@@ -52,7 +61,7 @@ export default async function downloadFontFile() {
 
         exec(
           process.env.BABEL_ENV === 'development'
-            ? '../fonts'
+            ? 'npx react-native-asset -a ../fonts'
             : 'npx react-native-asset -a ./node_modules/@react-native-fonts/fonts/fonts'
         );
       });
