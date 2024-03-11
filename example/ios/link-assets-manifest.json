@@ -6,8 +6,37 @@
       "sha1": "4ae84048bae599b7ef83129f16a55cd8353325af"
     },
     {
+<<<<<<< Updated upstream
       "path": "../fonts/ojuju-400-normal.ttf",
       "sha1": "7a5bc3f82664edb847cdc1d8adf408c31f18da75"
+=======
+      "path": "../fonts/afacad_regularnormal.ttf",
+      "sha1": "2a48cf75080f4fd3a66ea13a92e1964baa4a5035"
+    },
+    {
+      "path": "../fonts/inter_medium.ttf",
+      "sha1": "e855896c7b9ab9279cfabc65ea8e5d84e1991958"
+    },
+    {
+      "path": "../fonts/inter_regular.ttf",
+      "sha1": "fb2cc7cb123e7d76e73540fc614234de21c82be5"
+    },
+    {
+      "path": "../fonts/poppins_medium.ttf",
+      "sha1": "cf83e7582e60ed83f67c7d68b4f7482ac9fc6958"
+    },
+    {
+      "path": "../fonts/poppins_mediumitalic.ttf",
+      "sha1": "3672f9214a5bb91a7ec0155e5e9cf32dfd81089f"
+    },
+    {
+      "path": "../fonts/poppins_regular.ttf",
+      "sha1": "52f9413b264e8ecefbbf12830e3dfadebbf72986"
+    },
+    {
+      "path": "../fonts/poppins_regularitalic.ttf",
+      "sha1": "acd1d02de4e0b49d9b3a264bb575fc8d79d085b7"
+>>>>>>> Stashed changes
     }
   ]
 }

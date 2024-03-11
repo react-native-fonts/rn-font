@@ -11,6 +11,18 @@ import {
   type Font,
 } from './';
 
+const fontWeights = {
+  '100': 'thin',
+  '200': 'extralight',
+  '300': 'light',
+  '400': 'regular',
+  '500': 'medium',
+  '600': 'semibold',
+  '700': 'bold',
+  '800': 'extraBold',
+  '900': 'black',
+};
+
 export default async function downloadFontFile() {
   console.log('Download font');
   const fontAxesFilesPath = readFontOptionsFilesPath();
@@ -34,9 +46,9 @@ export default async function downloadFontFile() {
     const fileExt = (fontUrl || '').split('.').pop();
     const filePath = path.join(
       __dirname,
-      `../../fonts/${font.fontFamily.toLowerCase()}-${font.fontWeight}-${
-        font.fontStyle
-      }.${fileExt}`
+      `../../fonts/${font.fontFamily.toLowerCase()}_${
+        fontWeights[font.fontWeight as keyof typeof fontWeights]
+      }${font.fontStyle !== 'normal' ? font.fontStyle : ''}.${fileExt}`
     );
 
     if (!fs.existsSync(path.dirname(filePath))) {

@@ -1,11 +1,12 @@
 {
-  "Ojuju": {
+  "Poppins": {
     "weight": [
       "400",
-      "300"
+      "500"
     ],
     "style": [
-      "normal"
+      "normal",
+      "italic"
     ]
   }
 }
