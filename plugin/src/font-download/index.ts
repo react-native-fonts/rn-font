@@ -1,4 +1,4 @@
-import downloadFontFile from './downloadFontFile';
+import fontProcessor from './fontProcessor';
 import getFontDownloadUrls, { type Font } from './getFontDownloadUrls';
 import getFontsUrls from './getFontsUrls';
 import parseFontUsages, { type ParsedFonts } from './parseFontUsages';
@@ -10,4 +10,4 @@ export {
   type ParsedFonts,
   type Font,
 };
-export default downloadFontFile;
+export default fontProcessor;

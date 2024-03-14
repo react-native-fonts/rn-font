@@ -4,7 +4,7 @@ import createFontOptionsFile from './font-options';
 import { getCompName } from './get-comp-name';
 import { getImportedFontNames } from './get-imported-font-names';
 import { getFontUsages } from './get-font-usages';
-import downloadFontFile from './font-download';
+import fontProcessor from './font-download';
 
 export default function (): PluginObj {
   const importedFonts: string[] = [];
@@ -28,7 +28,7 @@ export default function (): PluginObj {
     post() {
       try {
         createFontOptionsFile(filePath, fontUsages);
-        downloadFontFile();
+        fontProcessor();
       } catch (err) {
         console.error(err);
       }

@@ -5,16 +5,22 @@ import Comp from './src/Comp';
 
 export default function App() {
   const {isLoaded} = useOjuju({
-    weight: ['400', '300'],
+    weight: ['200', '400'],
     style: ['normal'],
   });
 
-  console.log('test23456');
+  console.log('test');
 
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: 'ojuju-400-normal'}}>
-        {isLoaded.toString() + ' asdasd '}
+      <Text style={{fontFamily: 'poppins_regular'}}>
+        {isLoaded.toString() + ' asdasdasdaf '}
+      </Text>
+      <Text style={{fontFamily: 'abeezee_regularitalic'}}>
+        {isLoaded.toString() + ' as '}
+      </Text>
+      <Text style={{fontFamily: 'ojuju_extralight'}}>
+        {isLoaded.toString() + ' asdasafaafdasfaaf '}
       </Text>
       <Comp />
     </View>
