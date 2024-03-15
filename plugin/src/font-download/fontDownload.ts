@@ -16,7 +16,7 @@ const fontWeights = {
 };
 
 export const getFontFileName = (font: Font, ext: string) => {
-  return `${font.fontFamily.toLowerCase()}_${
+  return `${font.fontFamily.toLowerCase().replaceAll(' ', '_')}_${
     fontWeights[font.fontWeight as keyof typeof fontWeights]
   }${font.fontStyle !== 'normal' ? font.fontStyle : ''}.${ext}`;
 };
@@ -60,21 +60,6 @@ export const fontDownload = (
         file.close();
 
         onSuccess?.();
-        // addImportToFile();
-        //
-        // exec(
-        //   // 'ls',
-        //   process.env.BABEL_ENV === 'development'
-        //     ? 'npx react-native-asset -a ../fonts'
-        //     : 'npx react-native-asset -a ./node_modules/@react-native-fonts/fonts/fonts',
-        //   (err, stdout, stderr) => {
-        //     console.log(err, stdout, stderr);
-        //     if (err) {
-        //       console.error(err, stdout, stderr);
-        //       return;
-        //     }
-        //   }
-        // );
       });
     });
   });

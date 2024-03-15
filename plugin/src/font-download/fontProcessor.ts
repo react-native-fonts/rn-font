@@ -2,7 +2,7 @@ import path from 'path';
 import { exec } from 'child_process';
 import { readFontOptionsFilesPath } from '../font-options';
 import { getFontDownloadUrls, getFontsUrls, parseFontUsages } from './';
-import { linkFontForAndroid } from './linkFontForAndroid';
+import { linkFontForAndroid } from './android-link/linkFontForAndroid';
 import { fontDownload } from './fontDownload';
 
 export default async function fontProcessor() {
@@ -16,7 +16,6 @@ export default async function fontProcessor() {
   console.log('parsedFontValues', parsedFontValues);
 
   const filePath = path.join(__dirname, '../../fonts');
-
   fontDownload(fontDownloadUrls, filePath, () => {
     exec(
       process.env.BABEL_ENV === 'development'

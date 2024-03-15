@@ -1,11 +1,15 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useAbhaya_Libre} from '@react-native-fonts/fonts';
+import {useAbhaya_Libre, useOjuju} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
   const {fontFamily, isLoaded} = useAbhaya_Libre({
     weight: ['400'],
+    style: ['normal'],
+  });
+  const {} = useOjuju({
+    weight: ['200', '400'],
     style: ['normal'],
   });
 

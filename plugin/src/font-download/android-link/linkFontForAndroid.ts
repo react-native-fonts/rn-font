@@ -1,7 +1,7 @@
-import type { Font } from './getFontDownloadUrls';
-import type { ParsedFonts } from './parseFontUsages';
+import type { Font } from '../getFontDownloadUrls';
+import type { ParsedFonts } from '../parseFontUsages';
 import path from 'path';
-import { fontDownload } from './fontDownload';
+import { fontDownload } from '../fontDownload';
 
 export const linkFontForAndroid = (
   parsedFontValues: ParsedFonts,

@@ -49,6 +49,8 @@ export const getFontUsages = (
     {}
   ) as Font;
 
+  value.style = value.style || ['normal'];
+
   const fontName = callee.node.name.slice(3);
   if (!fontUsages[fontName]) {
     fontUsages[fontName] = {

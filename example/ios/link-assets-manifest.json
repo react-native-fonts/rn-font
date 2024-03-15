@@ -2,6 +2,14 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "../fonts/abhaya_libre_medium.ttf",
+      "sha1": "1b601297b61f57d76f18f18ede18b8ac98d4d857"
+    },
+    {
+      "path": "../fonts/abhaya_libre_regular.ttf",
+      "sha1": "021cd0365d74db127c574bd0a52856746ce08df3"
+    },
+    {
       "path": "../fonts/ojuju_extralight.ttf",
       "sha1": "6e2bb4ac27e4971e995a100c5d187a82c6199821"
     },

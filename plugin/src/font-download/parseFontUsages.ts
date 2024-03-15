@@ -25,7 +25,7 @@ const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
             acc[fontOption] =
               typeof fileJSON[fontName][option] === 'string'
                 ? [...new Set([fileJSON[fontName][option]])]
-                : [...new Set(fileJSON[fontName][option])];
+                : [...new Set(fileJSON[fontName][option])].toSorted();
             return acc;
           },
           {}
@@ -46,7 +46,7 @@ const parseFontUsages = ({ paths }: ParseFontUsages): ParsedFonts => {
           cacheProp?.push(...valueProp);
         }
         // make them unique & sorted
-        fontCache[fontName][option] = [...new Set(cacheProp)].sort();
+        fontCache[fontName][option] = [...new Set(cacheProp)].toSorted();
       });
     });
   });
