@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import https from 'https';
 import type { Font } from './getFontDownloadUrls';
+import { registerFont } from './android-xml-fonts';
 
 const fontWeights = {
   '100': 'thin',
@@ -59,6 +60,7 @@ export const fontDownload = (
       file.on('finish', () => {
         file.close();
 
+        registerFont(font.fontFamily);
         onSuccess?.();
       });
     });

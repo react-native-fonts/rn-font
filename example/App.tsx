@@ -1,15 +1,15 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useAbhaya_Libre, useOjuju} from '@react-native-fonts/fonts';
+import {useAbhaya_Libre, useAdamina} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {fontFamily, isLoaded} = useAbhaya_Libre({
+  const {fontFamily, isLoaded} = useAdamina({
     weight: ['400'],
     style: ['normal'],
   });
-  const {} = useOjuju({
-    weight: ['200', '400'],
+  const {} = useAbhaya_Libre({
+    weight: ['400'],
     style: ['normal'],
   });
 
@@ -18,7 +18,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={{fontFamily: fontFamily}}>
-        {isLoaded.toString() + ' asdasdasdaf '}
+        {isLoaded.toString() + ' awsddawdwadwaadwghf '}
       </Text>
       <Text style={{fontFamily: 'abeezee_regularitalic'}}>
         {isLoaded.toString() + ' as '}
