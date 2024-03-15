@@ -49,8 +49,8 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ojuju_extralight.ttf</string>
 		<string>ojuju_regular.ttf</string>
+		<string>ojuju_extralight.ttf</string>
 	</array>
 </dict>
 </plist>

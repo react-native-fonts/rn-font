@@ -19,6 +19,7 @@ export const useFont = <T>(args: FontLoaderProps<T>) => {
 
   return {
     isLoaded,
+    fontFamily: args.fontFamily.replaceAll('_', ' '),
     style: { fontFamily: args.fontFamily },
   };
 };

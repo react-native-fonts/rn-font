@@ -15,8 +15,8 @@
 		7699B88040F8A987B510C191 /* libPods-test-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-test-testTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		F7A4E2928AD646F29C762AD6 /* adamina_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C82C9921F5EB4D72B8150FBF /* adamina_regular.ttf */; };
-		D5A5BBB11F0247E3B624F4F1 /* ojuju_extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1A0D18B4D8946E89B32D12B /* ojuju_extralight.ttf */; };
-		DE61EA6987504577B2296976 /* ojuju_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FD3442568E649999DEF5343 /* ojuju_regular.ttf */; };
+		387ADA4BE54848B8990D84E8 /* ojuju_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF60960C261846CAB5CD76A8 /* ojuju_regular.ttf */; };
+		8ADBA4F62F62413E9C789267 /* ojuju_extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC3EDB9BC4924DE79DBA174D /* ojuju_extralight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,8 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-test-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-testTests.release.xcconfig"; path = "Target Support Files/Pods-test-testTests/Pods-test-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		C82C9921F5EB4D72B8150FBF /* adamina_regular.ttf */ = {isa = PBXFileReference; name = "adamina_regular.ttf"; path = "../../fonts/adamina_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D1A0D18B4D8946E89B32D12B /* ojuju_extralight.ttf */ = {isa = PBXFileReference; name = "ojuju_extralight.ttf"; path = "../../fonts/ojuju_extralight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9FD3442568E649999DEF5343 /* ojuju_regular.ttf */ = {isa = PBXFileReference; name = "ojuju_regular.ttf"; path = "../../fonts/ojuju_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF60960C261846CAB5CD76A8 /* ojuju_regular.ttf */ = {isa = PBXFileReference; name = "ojuju_regular.ttf"; path = "../../fonts/ojuju_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC3EDB9BC4924DE79DBA174D /* ojuju_extralight.ttf */ = {isa = PBXFileReference; name = "ojuju_extralight.ttf"; path = "../../fonts/ojuju_extralight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 			isa = "PBXGroup";
 			children = (
 				C82C9921F5EB4D72B8150FBF /* adamina_regular.ttf */,
-				D1A0D18B4D8946E89B32D12B /* ojuju_extralight.ttf */,
-				9FD3442568E649999DEF5343 /* ojuju_regular.ttf */,
+				CF60960C261846CAB5CD76A8 /* ojuju_regular.ttf */,
+				EC3EDB9BC4924DE79DBA174D /* ojuju_extralight.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -262,8 +262,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				F7A4E2928AD646F29C762AD6 /* adamina_regular.ttf in Resources */,
-				D5A5BBB11F0247E3B624F4F1 /* ojuju_extralight.ttf in Resources */,
-				DE61EA6987504577B2296976 /* ojuju_regular.ttf in Resources */,
+				387ADA4BE54848B8990D84E8 /* ojuju_regular.ttf in Resources */,
+				8ADBA4F62F62413E9C789267 /* ojuju_extralight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

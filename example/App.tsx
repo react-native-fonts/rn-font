@@ -1,19 +1,19 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useOjuju} from '@react-native-fonts/fonts';
+import {useAbhaya_Libre} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {isLoaded} = useOjuju({
-    weight: ['200', '400'],
+  const {fontFamily, isLoaded} = useAbhaya_Libre({
+    weight: ['400'],
     style: ['normal'],
   });
 
-  console.log('test');
+  console.log('test', fontFamily.toLowerCase());
 
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: 'poppins_regular'}}>
+      <Text style={{fontFamily: fontFamily}}>
         {isLoaded.toString() + ' asdasdasdaf '}
       </Text>
       <Text style={{fontFamily: 'abeezee_regularitalic'}}>
