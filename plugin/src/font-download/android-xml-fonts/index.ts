@@ -1,4 +1,10 @@
-import registerFont from './registerFont';
+import registerFont, { getRegisterFontText } from './registerFont';
 import getProjectPath from './getProjectPath';
+import createDefinitionFile from './createDefinitionFile';
 
-export { registerFont, getProjectPath };
+export {
+  registerFont,
+  getProjectPath,
+  createDefinitionFile,
+  getRegisterFontText,
+};

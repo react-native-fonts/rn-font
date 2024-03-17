@@ -11,6 +11,7 @@
     "weight": [
       "400",
       "100",
+      "200",
       "300",
       "500"
     ],
@@ -18,7 +19,15 @@
       "normal"
     ]
   },
-  "Abhaya_Libre": {
+  "Aclonica": {
+    "weight": [
+      "400"
+    ],
+    "style": [
+      "normal"
+    ]
+  },
+  "Abel": {
     "weight": [
       "400"
     ],

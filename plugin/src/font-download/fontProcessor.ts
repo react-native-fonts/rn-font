@@ -1,9 +1,14 @@
 import path from 'path';
 import { exec } from 'child_process';
 import { readFontOptionsFilesPath } from '../font-options';
-import { getFontDownloadUrls, getFontsUrls, parseFontUsages } from './';
-import { fontDownload } from './fontDownload';
-import createDefinitionFile from './android-xml-fonts/createDefinitionFile';
+import { createDefinitionFile } from './android-xml-fonts/';
+import {
+  getFontDownloadUrls,
+  getFontsUrls,
+  parseFontUsages,
+  cleanupUnusedFonts,
+  fontDownload,
+} from './';
 
 export default async function fontProcessor() {
   const fontAxesFilesPath = readFontOptionsFilesPath();
@@ -17,6 +22,7 @@ export default async function fontProcessor() {
     'android/app/src/main/res/font'
   );
 
+  cleanupUnusedFonts(filePath, androidFilePath, fontDownloadUrls);
   fontDownload(fontDownloadUrls, androidFilePath);
   fontDownload(fontDownloadUrls, filePath, () => {
     exec(

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import https from 'https';
-import type { Font } from './getFontDownloadUrls';
+import type { Font } from './';
 import { registerFont } from './android-xml-fonts';
 
 const fontWeights = {
@@ -25,7 +25,7 @@ export const getFontName = (font: Font) => {
 export const getFontFileName = (font: Font, ext: string) =>
   `${getFontName(font)}.${ext}`;
 
-export const fontDownload = (
+const fontDownload = (
   fontDownloadUrls: Font[],
   filePath: string,
   onSuccess?: () => void
@@ -44,9 +44,8 @@ export const fontDownload = (
 
     const pathWithFont = path.join(filePath, getFontFileName(font, fileExt));
 
-    if (!fs.existsSync(path.dirname(pathWithFont))) {
-      fs.mkdirSync(path.dirname(pathWithFont), { recursive: true });
-    }
+    if (fs.existsSync(path.dirname(pathWithFont))) return;
+    fs.mkdirSync(path.dirname(pathWithFont), { recursive: true });
 
     const file = fs.createWriteStream(pathWithFont);
 
@@ -69,3 +68,5 @@ export const fontDownload = (
     });
   });
 };
+
+export default fontDownload;

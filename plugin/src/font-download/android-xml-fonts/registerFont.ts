@@ -1,14 +1,19 @@
 import fs from 'fs';
 import { getProjectPath } from './';
+
+export const getRegisterFontText = (fontFamily: string) => {
+  return `\n\t\tReactFontManager.getInstance().addCustomFont(this, "${fontFamily}", R.font.${fontFamily
+    .toLowerCase()
+    .replaceAll(' ', '_')})`;
+};
+
 export default function registerFont(fontFamily: string) {
   //TODO: if rn version is < 0.73 then add import to MainApplication.java
   const projectPath = getProjectPath('MainApplication.kt');
   if (!projectPath) return;
 
   const importText = `import com.facebook.react.common.assets.ReactFontManager\n`;
-  const registerFontText = `\n\t\tReactFontManager.getInstance().addCustomFont(this, "${fontFamily}", R.font.${fontFamily
-    .toLowerCase()
-    .replaceAll(' ', '_')})`;
+  const registerFontText = getRegisterFontText(fontFamily);
 
   fs.readFile(projectPath, 'utf8', (err, data) => {
     if (err) {

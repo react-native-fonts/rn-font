@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import type { ParsedFonts } from '../parseFontUsages';
+import type { ParsedFonts } from '../';
 import type { ArrayedFont } from '../../types';
-import { getFontName } from '../fontDownload';
+import { getFontName } from '../';
 
 export default function createDefinitionFile(fonts: ParsedFonts) {
   if (!fonts) return;
