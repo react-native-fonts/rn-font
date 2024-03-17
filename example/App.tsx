@@ -1,11 +1,15 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {useAbhaya_Libre, useAdamina} from '@react-native-fonts/fonts';
+import {useAbhaya_Libre, useAdamina, useInter} from '@react-native-fonts/fonts';
 import Comp from './src/Comp';
 
 export default function App() {
-  const {fontFamily, isLoaded} = useAdamina({
+  const {} = useAdamina({
     weight: ['400'],
+    style: ['normal'],
+  });
+  const {fontFamily, isLoaded} = useInter({
+    weight: ['400', '100', '300', '500'],
     style: ['normal'],
   });
   const {} = useAbhaya_Libre({
@@ -13,12 +17,10 @@ export default function App() {
     style: ['normal'],
   });
 
-  console.log('test', fontFamily.toLowerCase());
-
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: fontFamily}}>
-        {isLoaded.toString() + ' awsddawdwadwaadwghf '}
+      <Text style={{fontFamily, fontWeight: '500'}}>
+        {isLoaded.toString() + ' awsddawaghf '}
       </Text>
       <Text style={{fontFamily: 'abeezee_regularitalic'}}>
         {isLoaded.toString() + ' as '}

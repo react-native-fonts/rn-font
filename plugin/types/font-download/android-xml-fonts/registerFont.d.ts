@@ -1,1 +1,1 @@
-export declare function registerFont(fontFamily: string): void;
+export default function registerFont(fontFamily: string): void;

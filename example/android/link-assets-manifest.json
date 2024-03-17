@@ -14,6 +14,22 @@
       "sha1": "8eb1c385eac35b75fe0f775334ccef8f66c45ed5"
     },
     {
+      "path": "../fonts/inter_light.ttf",
+      "sha1": "3629502ab900c33bfbb4b4599262aff53de575cc"
+    },
+    {
+      "path": "../fonts/inter_medium.ttf",
+      "sha1": "e855896c7b9ab9279cfabc65ea8e5d84e1991958"
+    },
+    {
+      "path": "../fonts/inter_regular.ttf",
+      "sha1": "fb2cc7cb123e7d76e73540fc614234de21c82be5"
+    },
+    {
+      "path": "../fonts/inter_thin.ttf",
+      "sha1": "0386efeac3d81c5e784a3ad53fde27bf0feff792"
+    },
+    {
       "path": "../fonts/ojuju_extralight.ttf",
       "sha1": "6e2bb4ac27e4971e995a100c5d187a82c6199821"
     },

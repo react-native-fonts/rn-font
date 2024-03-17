@@ -2,17 +2,22 @@ import path from 'path';
 import { exec } from 'child_process';
 import { readFontOptionsFilesPath } from '../font-options';
 import { getFontDownloadUrls, getFontsUrls, parseFontUsages } from './';
-import { linkFontForAndroid } from './android-xml-fonts/linkFontForAndroid';
 import { fontDownload } from './fontDownload';
+import createDefinitionFile from './android-xml-fonts/createDefinitionFile';
 
 export default async function fontProcessor() {
   const fontAxesFilesPath = readFontOptionsFilesPath();
   const parsedFontValues = parseFontUsages({ paths: fontAxesFilesPath });
   const fontsUrls = getFontsUrls(parsedFontValues);
   const fontDownloadUrls = await getFontDownloadUrls(fontsUrls);
-  linkFontForAndroid(parsedFontValues, fontDownloadUrls);
 
   const filePath = path.join(__dirname, '../../fonts');
+  const androidFilePath = path.join(
+    process.cwd(),
+    'android/app/src/main/res/font'
+  );
+
+  fontDownload(fontDownloadUrls, androidFilePath);
   fontDownload(fontDownloadUrls, filePath, () => {
     exec(
       process.env.BABEL_ENV === 'development'
@@ -26,4 +31,5 @@ export default async function fontProcessor() {
       }
     );
   });
+  createDefinitionFile(parsedFontValues);
 }

@@ -7,6 +7,17 @@
       "normal"
     ]
   },
+  "Inter": {
+    "weight": [
+      "400",
+      "100",
+      "300",
+      "500"
+    ],
+    "style": [
+      "normal"
+    ]
+  },
   "Abhaya_Libre": {
     "weight": [
       "400"

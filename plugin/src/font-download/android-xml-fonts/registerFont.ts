@@ -1,39 +1,9 @@
 import fs from 'fs';
-import path from 'path';
-
-export function registerFont(fontFamily: string) {
-  // Function to find a folder in the "com" directory that contains the "MainApplication.(kt/java)" file
-  function getProjectFilePath(fileName: string) {
-    const comDirectory = path.join(
-      process.cwd(),
-      './android/app/src/main/java/com'
-    );
-
-    const folders = fs
-      .readdirSync(comDirectory)
-      .filter((file) =>
-        fs.statSync(path.join(comDirectory, file)).isDirectory()
-      );
-
-    const projectName = folders?.[0];
-
-    if (!projectName)
-      return console.error(`Expected folder in '${comDirectory}'`);
-
-    if (folders.length !== 1) {
-      return console.error(
-        `Expected one folder in '${comDirectory}', found ${folders.length}.`
-      );
-    }
-    return path.join(comDirectory, projectName, fileName);
-  }
-
+import { getProjectPath } from './';
+export default function registerFont(fontFamily: string) {
   //TODO: if rn version is < 0.73 then add import to MainApplication.java
-  const projectPath = getProjectFilePath('MainApplication.kt');
-
+  const projectPath = getProjectPath('MainApplication.kt');
   if (!projectPath) return;
-
-  console.log(projectPath, 'file path asdasd');
 
   const importText = `import com.facebook.react.common.assets.ReactFontManager\n`;
   const registerFontText = `\n\t\tReactFontManager.getInstance().addCustomFont(this, "${fontFamily}", R.font.${fontFamily

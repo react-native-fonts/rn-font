@@ -37,6 +37,7 @@ class MainApplication : Application(), ReactApplication {
   override fun onCreate() {
     super.onCreate()
 		ReactFontManager.getInstance().addCustomFont(this, "Abhaya Libre", R.font.abhaya_libre)
+		ReactFontManager.getInstance().addCustomFont(this, "Inter", R.font.inter)
 		ReactFontManager.getInstance().addCustomFont(this, "Adamina", R.font.adamina)
     SoLoader.init(this, false)
     if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {

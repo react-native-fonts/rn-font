@@ -16,11 +16,14 @@ const fontWeights = {
   '900': 'black',
 };
 
-export const getFontFileName = (font: Font, ext: string) => {
+export const getFontName = (font: Font) => {
   return `${font.fontFamily.toLowerCase().replaceAll(' ', '_')}_${
     fontWeights[font.fontWeight as keyof typeof fontWeights]
-  }${font.fontStyle !== 'normal' ? font.fontStyle : ''}.${ext}`;
+  }${font.fontStyle !== 'normal' ? font.fontStyle : ''}`;
 };
+
+export const getFontFileName = (font: Font, ext: string) =>
+  `${getFontName(font)}.${ext}`;
 
 export const fontDownload = (
   fontDownloadUrls: Font[],

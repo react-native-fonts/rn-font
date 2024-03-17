@@ -1,3 +1,4 @@
-import { registerFont } from './registerFont';
+import registerFont from './registerFont';
+import getProjectPath from './getProjectPath';
 
-export { registerFont };
+export { registerFont, getProjectPath };
