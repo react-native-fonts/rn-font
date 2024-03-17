@@ -30,7 +30,8 @@ export const getFontUsages = (
   { fontUsages, importedFonts }: GetFontUsages
 ) => {
   const callee = nodePath.get('callee');
-
+  //@ts-ignore
+  console.log('test1234', callee.node?.name?.slice(3));
   if (!callee.isIdentifier()) return;
   // validate if the function is a font usage
   if (!importedFonts.includes(callee.node.name.slice(3))) return;

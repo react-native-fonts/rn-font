@@ -1,5 +1,6 @@
 import path from 'path';
 import fs from 'fs';
+import { fontOptionsPath } from '../font-paths';
 
 export default function readFontOptionsFilesPath() {
   const fontFilesPaths: string[] = [];
@@ -19,8 +20,8 @@ export default function readFontOptionsFilesPath() {
       console.error('Error while reading file', err);
     }
   };
-  const directoryPath = path.join(__dirname, '../fontsOptions');
-  readDirectoryRecursively(directoryPath);
+
+  readDirectoryRecursively(fontOptionsPath);
 
   return fontFilesPaths;
 }

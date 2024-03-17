@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 
 import watchDirChanges from './watchDirChanges';
+import { fontOptionsPath } from '../font-paths';
 
 export default function createFontOptionsFile(
   filePath: string,
@@ -12,17 +13,21 @@ export default function createFontOptionsFile(
   const folderPathWithoutFileName = filePath.split('/').slice(0, -1).join('/');
 
   const folderPath = path.join(
-    __dirname,
-    `../fontsOptions${
-      folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
-    }`
+    fontOptionsPath,
+    folderPathWithoutFileName ? `/${folderPathWithoutFileName}` : ''
   );
 
   if (!fs.existsSync(folderPath)) {
     fs.mkdirSync(folderPath, { recursive: true });
   }
 
-  const jsonPath = path.join(__dirname, `../fontsOptions/${filePath}.json`);
+  const jsonPath = path.join(fontOptionsPath, `${filePath}.json`);
+  console.log('fontCache', fontCache);
+  if (Object.keys(fontCache).length === 0 && fs.existsSync(jsonPath)) {
+    console.log('fontCache2', fontCache);
+    return fs.unlinkSync(jsonPath);
+  }
+
   if (filePath && Object.keys(fontCache).length > 0)
     fs.writeFileSync(jsonPath, JSON.stringify(fontCache, null, 2), {
       flag: 'w',

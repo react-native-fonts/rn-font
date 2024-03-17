@@ -9,6 +9,7 @@ import {
   cleanupUnusedFonts,
   fontDownload,
 } from './';
+import { fontPath } from '../font-paths';
 
 export default async function fontProcessor() {
   const fontAxesFilesPath = readFontOptionsFilesPath();
@@ -16,15 +17,16 @@ export default async function fontProcessor() {
   const fontsUrls = getFontsUrls(parsedFontValues);
   const fontDownloadUrls = await getFontDownloadUrls(fontsUrls);
 
-  const filePath = path.join(__dirname, '../../fonts');
   const androidFilePath = path.join(
     process.cwd(),
     'android/app/src/main/res/font'
   );
 
-  cleanupUnusedFonts(filePath, androidFilePath, fontDownloadUrls);
-  fontDownload(fontDownloadUrls, androidFilePath);
-  fontDownload(fontDownloadUrls, filePath, () => {
+  cleanupUnusedFonts(fontPath, androidFilePath, fontDownloadUrls);
+  fontDownload(fontDownloadUrls, androidFilePath, () => {
+    createDefinitionFile(parsedFontValues);
+  });
+  fontDownload(fontDownloadUrls, fontPath, () => {
     exec(
       process.env.BABEL_ENV === 'development'
         ? 'npx react-native-asset -a ../fonts'
@@ -37,5 +39,4 @@ export default async function fontProcessor() {
       }
     );
   });
-  createDefinitionFile(parsedFontValues);
 }

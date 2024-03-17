@@ -5,9 +5,7 @@ import Comp from './src/Comp';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: 'ojuju_extralight'}}>
-        {' asdasadwadfaafdassqfaaf '}
-      </Text>
+      <Text style={{fontFamily: 'Ojuju'}}>{'afflkasds'}</Text>
       <Comp />
     </View>
   );

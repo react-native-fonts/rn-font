@@ -22,6 +22,7 @@ export default function (): PluginObj {
       CallExpression: {
         enter(nodePath: NodePath<CallExpression>) {
           getFontUsages(nodePath, { fontUsages, importedFonts });
+          console.log(fontUsages, 'dupa');
         },
       },
     },

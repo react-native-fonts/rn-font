@@ -4,7 +4,7 @@ import {Text, View} from 'react-native';
 const Comp = () => {
   return (
     <View>
-      <Text>testaf</Text>
+      <Text style={{fontFamily: 'Ojuju'}}>test</Text>
     </View>
   );
 };
