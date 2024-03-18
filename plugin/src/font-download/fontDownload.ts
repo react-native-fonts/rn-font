@@ -32,9 +32,8 @@ const fontDownload = (
 ) => {
   fontDownloadUrls.forEach((font: Font) => {
     const fontUrlMatch = font.src.match(/url\(([^)]+)\)/);
-    const fontUrl: string | null = fontUrlMatch
-      ? fontUrlMatch?.[1] || null
-      : null;
+    const fontUrl = fontUrlMatch?.[1] || null;
+    console.log('fontUrl', fontUrl);
 
     //TODO: change error message
     if (!fontUrl || !fontUrl.split('.').pop)
@@ -44,14 +43,17 @@ const fontDownload = (
 
     const pathWithFont = path.join(filePath, getFontFileName(font, fileExt));
 
-    if (fs.existsSync(path.dirname(pathWithFont))) return;
-    fs.mkdirSync(path.dirname(pathWithFont), { recursive: true });
+    if (fs.existsSync(pathWithFont)) return;
+
+    if (!fs.existsSync(path.dirname(pathWithFont))) {
+      fs.mkdirSync(path.dirname(pathWithFont), { recursive: true });
+    }
 
     const file = fs.createWriteStream(pathWithFont);
 
     https.get(fontUrl, (response) => {
       response.pipe(file);
-
+      console.log(response.statusCode);
       if (response.statusCode !== 200) {
         console.error(
           `Failed to download ${font.fontFamily}. Status code: ${response.statusCode}`
@@ -60,6 +62,7 @@ const fontDownload = (
       }
 
       file.on('finish', () => {
+        console.log('font downloaded');
         file.close();
 
         registerFont(font.fontFamily);

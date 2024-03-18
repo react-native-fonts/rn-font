@@ -49,13 +49,6 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ojuju_extralight.ttf</string>
-		<string>ojuju_regular.ttf</string>
-		<string>abhaya_libre_regular.ttf</string>
-		<string>abhaya_libre_medium.ttf</string>
-		<string>inter_light.ttf</string>
-		<string>inter_regular.ttf</string>
-		<string>inter_thin.ttf</string>
 		<string>inter_medium.ttf</string>
 	</array>
 </dict>

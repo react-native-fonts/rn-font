@@ -23,9 +23,12 @@ export default async function fontProcessor() {
   );
 
   cleanupUnusedFonts(fontPath, androidFilePath, fontDownloadUrls);
+
   fontDownload(fontDownloadUrls, androidFilePath, () => {
+    console.log('dupa', parsedFontValues);
     createDefinitionFile(parsedFontValues);
   });
+
   fontDownload(fontDownloadUrls, fontPath, () => {
     exec(
       process.env.BABEL_ENV === 'development'
