@@ -11,11 +11,8 @@ export default function watchDirChanges() {
     ).replace('.json', '');
 
     for (const ext of extensions) {
-      console.log('checking', componentPath + ext);
-
       if (!fs.existsSync(componentPath + ext)) {
         if (ext === extensions[extensions.length - 1]) {
-          console.log('File does not exist', componentPath);
           fs.unlinkSync(filePath);
         }
       } else break;

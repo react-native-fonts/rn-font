@@ -2,7 +2,7 @@ import fs from 'fs';
 import { getProjectPath } from './';
 
 export const getRegisterFontText = (fontFamily: string) => {
-  return `\n\t\tReactFontManager.getInstance().addCustomFont(this, "${fontFamily}", R.font.${fontFamily
+  return `ReactFontManager.getInstance().addCustomFont(this, "${fontFamily}", R.font.${fontFamily
     .toLowerCase()
     .replaceAll(' ', '_')})`;
 };
@@ -32,10 +32,10 @@ export default function registerFont(fontFamily: string) {
     }
 
     const newData =
-      data.slice(0, importIndex) +
-      (!data.includes(importText) ? importText : '') +
-      data.slice(importIndex, onCreateIndex + 16) +
-      (!data.includes(registerFontText) ? registerFontText : '') +
+      data.slice(0, importIndex + 1) +
+      (data.includes(importText) ? '' : importText + '\n') +
+      data.slice(importIndex + 1, onCreateIndex + 16) +
+      (!data.includes(registerFontText) ? '\n\t' + registerFontText : '') +
       data.slice(onCreateIndex + 16);
 
     fs.writeFile(projectPath, newData, 'utf8', (err) => {
@@ -43,7 +43,6 @@ export default function registerFont(fontFamily: string) {
         console.error(err);
         return;
       }
-      console.log('Import added to MainApplication.kt');
     });
   });
 }

@@ -22,7 +22,6 @@ export default async function getFontDownloadUrls(fontsGoogleURls: string[]) {
 }
 
 function parseFontFaces(text: string): Font[] {
-  console.log(text);
   const fonts: Font[] = [];
   const fontFaceRegex = /@font-face\s*{([\s\S]*?)}/gm;
   let match;

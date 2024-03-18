@@ -6,24 +6,36 @@ import { getProjectPath, getRegisterFontText } from './android-xml-fonts';
 export default function cleanupUnusedFonts(
   filePath: string,
   androidFilePath: string,
-  fontDownloadUrls: Font[]
+  fontDownloadUrls: Font[],
+  usedFontNames: string[]
 ) {
-  const fontFiles = fs.readdirSync(filePath);
+  const fontFiles = fs
+    .readdirSync(filePath)
+    .filter((item) => item !== '.gitkeep');
 
   fontFiles.forEach((font) => {
-    const fontName = font.split('.').shift();
+    // eg. "albert_sans"
+    const fontFixedName = font.replace(font.split('_').pop()!, '').slice(0, -1);
     const fontInUse = fontDownloadUrls.find(
-      (item) => fontName === getFontName(item)
+      (item) => fontFixedName === getFontName(item)
     );
 
-    if (!fontInUse && fontName) {
+    // eg. "Albert Sans"
+    const fontName = usedFontNames.find(
+      (item) => item.toLowerCase().replaceAll(' ', '_') === fontFixedName
+    );
+
+    if (!fontName) return;
+
+    if (!fontInUse && fontFixedName) {
       fs.unlinkSync(path.join(filePath, font));
 
       if (fs.existsSync(path.join(androidFilePath, font))) {
         fs.unlinkSync(path.join(androidFilePath, font));
       }
-      if (fs.existsSync(path.join(androidFilePath, `${fontName}.xml`))) {
-        fs.unlinkSync(path.join(androidFilePath, `${fontName}.xml`));
+
+      if (fs.existsSync(path.join(androidFilePath, `${fontFixedName}.xml`))) {
+        fs.unlinkSync(path.join(androidFilePath, `${fontFixedName}.xml`));
 
         const projectPath = getProjectPath('MainApplication.kt');
         if (!projectPath) return;
@@ -36,7 +48,11 @@ export default function cleanupUnusedFonts(
 
           fs.writeFile(
             projectPath,
-            data.replace(getRegisterFontText(fontName), ''),
+            data.replaceAll(
+              getRegisterFontText(fontName),
+              // getRegisterFontText(fontName).replace('\n', '')
+              ''
+            ),
             'utf8',
             (err) => {
               if (err) {

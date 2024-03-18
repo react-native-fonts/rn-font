@@ -22,9 +22,8 @@ export default function createFontOptionsFile(
   }
 
   const jsonPath = path.join(fontOptionsPath, `${filePath}.json`);
-  console.log('fontCache', fontCache);
+
   if (Object.keys(fontCache).length === 0 && fs.existsSync(jsonPath)) {
-    console.log('fontCache2', fontCache);
     return fs.unlinkSync(jsonPath);
   }
 

@@ -48,8 +48,6 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIAppFonts</key>
-	<array>
-		<string>inter_medium.ttf</string>
-	</array>
+	<array/>
 </dict>
 </plist>

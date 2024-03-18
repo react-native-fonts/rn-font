@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import https from 'https';
 import type { Font } from './';
-import { registerFont } from './android-xml-fonts';
 
 const fontWeights = {
   '100': 'thin',
@@ -33,7 +32,6 @@ const fontDownload = (
   fontDownloadUrls.forEach((font: Font) => {
     const fontUrlMatch = font.src.match(/url\(([^)]+)\)/);
     const fontUrl = fontUrlMatch?.[1] || null;
-    console.log('fontUrl', fontUrl);
 
     //TODO: change error message
     if (!fontUrl || !fontUrl.split('.').pop)
@@ -53,7 +51,7 @@ const fontDownload = (
 
     https.get(fontUrl, (response) => {
       response.pipe(file);
-      console.log(response.statusCode);
+
       if (response.statusCode !== 200) {
         console.error(
           `Failed to download ${font.fontFamily}. Status code: ${response.statusCode}`
@@ -62,10 +60,8 @@ const fontDownload = (
       }
 
       file.on('finish', () => {
-        console.log('font downloaded');
         file.close();
 
-        registerFont(font.fontFamily);
         onSuccess?.();
       });
     });

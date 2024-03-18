@@ -1,7 +1,7 @@
 import path from 'path';
 import { exec } from 'child_process';
 import { readFontOptionsFilesPath } from '../font-options';
-import { createDefinitionFile } from './android-xml-fonts/';
+import { createDefinitionFile, registerFont } from './android-xml-fonts/';
 import {
   getFontDownloadUrls,
   getFontsUrls,
@@ -22,10 +22,14 @@ export default async function fontProcessor() {
     'android/app/src/main/res/font'
   );
 
-  cleanupUnusedFonts(fontPath, androidFilePath, fontDownloadUrls);
+  cleanupUnusedFonts(
+    fontPath,
+    androidFilePath,
+    fontDownloadUrls,
+    Object.keys(fontAxesFilesPath)
+  );
 
   fontDownload(fontDownloadUrls, androidFilePath, () => {
-    console.log('dupa', parsedFontValues);
     createDefinitionFile(parsedFontValues);
   });
 
@@ -34,12 +38,13 @@ export default async function fontProcessor() {
       process.env.BABEL_ENV === 'development'
         ? 'npx react-native-asset -a ../fonts'
         : 'npx react-native-asset -a ./node_modules/@react-native-fonts/fonts/fonts',
-      (err, stdout, stderr) => {
+      (err) => {
         if (err) {
-          console.error(err, stdout, stderr);
+          console.error(err);
           return;
         }
       }
     );
+    fontDownloadUrls.forEach((font) => registerFont(font.fontFamily));
   });
 }
