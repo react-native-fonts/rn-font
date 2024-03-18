@@ -1,5 +1,5 @@
 {
-  "name": "rn-font",
+  "name": "@react-native-fonts/fonts",
   "version": "0.1.0",
   "description": "fonts for RN",
   "main": "lib/commonjs/index",
@@ -9,6 +9,9 @@
   "source": "src/index",
   "files": [
     "src",
+    "plugin",
+    "plugin/build/index.js",
+    "plugin/index.js",
     "lib",
     "android",
     "ios",
@@ -32,7 +35,7 @@
     "clean": "del-cli lib",
     "prepare": "bob build",
     "release": "release-it",
-    "update-google-fonts": "tsx src/font/update-google-fonts.ts && prettier --write src/font/google/fonts.ts && prettier --write src/font/google/font-data.json"
+    "update-google-fonts": "tsx scripts/update-google-fonts.ts && prettier --write src/font/google/index.ts && prettier --write src/font/google/font-data.json"
   },
   "keywords": [
     "react-native",
@@ -41,14 +44,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-fonts/rn-font.git"
+    "url": "git+https://github.com/react-native-fonts/fonts.git"
   },
   "author": "react-native-fonts <moskalakamil07@gmail.com> (https://github.com/react-native-fonts)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-fonts/rn-font/issues"
+    "url": "https://github.com/react-native-fonts/fonts/issues"
   },
-  "homepage": "https://github.com/react-native-fonts/rn-font#readme",
+  "homepage": "https://github.com/react-native-fonts/fonts#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

@@ -1,22 +1,17 @@
 import * as React from 'react';
-
 import {StyleSheet, View, Text} from 'react-native';
-import {useFont} from 'rn-font';
+import Comp from './src/Comp';
+import {useAbel} from '@react-native-fonts/fonts';
 
 export default function App() {
-  const {isLoaded} = useFont({
-    fontFamily: 'ABeeZee',
-    options: {
-      weight: ['400'],
-      display: 'swap',
-    },
+  const {} = useAbel({
+    weight: '400',
   });
-
-  console.log(isLoaded);
 
   return (
     <View style={styles.container}>
-      <Text>{isLoaded}</Text>
+      <Text style={{fontFamily: 'Ojuju'}}>{'test234'}</Text>
+      <Comp />
     </View>
   );
 }

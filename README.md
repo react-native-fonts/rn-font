@@ -1,17 +1,17 @@
-# rn-font
+# @react-native-fonts/fonts
 
 fonts for RN
 
 ## Installation
 
 ```sh
-npm install rn-font
+npm install @react-native-fonts/fonts
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'rn-font';
+import { multiply } from '@react-native-fonts/fonts';
 
 // ...
 

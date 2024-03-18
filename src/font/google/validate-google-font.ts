@@ -1,32 +1,22 @@
 import { googleFontsMetadata } from './google-fonts-metadata';
 import { formatValues } from './formatValues';
-import { CodedError } from '../../errors/CodedError';
 import fontData from './font-data.json';
-import type { Display } from '../types';
-
-const displayValues = ['auto', 'block', 'swap', 'fallback', 'optional'];
+import { FontError } from '../../errors/FontError';
 
 type ValidateGoogleFontResult = {
   fontFamily: keyof typeof fontData;
   weights: string[];
   styles: string[];
-  display: Display;
-  subsets: string[];
 };
 
 export const validateGoogleFont = <T>(
   fontName: string,
   fontOptions: T
 ): ValidateGoogleFontResult => {
-  let {
-    weight,
-    style = 'normal',
-    display = 'swap',
-    subsets,
-  } = fontOptions as any;
+  let { weight, style = 'normal' } = fontOptions as any;
 
   if (fontName === '') {
-    throw new CodedError('FONT_NAME', 'Please specify a font name');
+    FontError('FONT_NAME', 'Please specify a font name');
   }
 
   const fontFamily = fontName.replace('_', ' ') as keyof typeof fontData;
@@ -34,24 +24,8 @@ export const validateGoogleFont = <T>(
   const fontFamilyData = googleFontsMetadata[fontFamily];
 
   if (!fontFamilyData) {
-    throw new CodedError(
-      'FONT_FAMILY',
-      `Font \`${fontFamily}\` is not recognized`
-    );
+    FontError('FONT_FAMILY', `Font \`${fontFamily}\` is not recognized`);
   }
-
-  const possibleSubsets = fontFamilyData?.subsets;
-
-  subsets?.forEach((subset: string) => {
-    if (!possibleSubsets?.includes(subset)) {
-      throw new CodedError(
-        'FONT_SUBSETS',
-        `Subset \`${subset}\` is not valid for font \`${fontFamily}\`.\nAvailable subsets: ${formatValues(
-          possibleSubsets
-        )}`
-      );
-    }
-  });
 
   const fontWeights = fontFamilyData?.weights;
   const fontStyles = fontFamilyData?.styles;
@@ -61,7 +35,7 @@ export const validateGoogleFont = <T>(
   const styles = [...new Set(Array.isArray(style) ? style : [style])];
 
   if (weights.length === 0) {
-    throw new CodedError(
+    FontError(
       'FONT_WEIGHT',
       `Please provide a weight for font \`${fontFamily}\`.\nAvailable weights: ${formatValues(
         fontWeights
@@ -71,7 +45,7 @@ export const validateGoogleFont = <T>(
 
   weights?.forEach((currentWeight) => {
     if (!fontWeights?.includes(currentWeight)) {
-      throw new CodedError(
+      FontError(
         'FONT_WEIGHT',
         `Weight \`${currentWeight}\` is not valid for font \`${fontFamily}\`.\nAvailable weights: ${formatValues(
           fontWeights
@@ -88,7 +62,7 @@ export const validateGoogleFont = <T>(
 
   styles.forEach((selectedStyle) => {
     if (!fontStyles?.includes(selectedStyle)) {
-      throw new CodedError(
+      FontError(
         'FONT_STYLE',
         `Style \`${selectedStyle}\` is not valid for font \`${fontFamily}\`.\nAvailable styles: ${formatValues(
           fontStyles
@@ -97,20 +71,9 @@ export const validateGoogleFont = <T>(
     }
   });
 
-  if (!displayValues.includes(display)) {
-    throw new CodedError(
-      'FONT_DISPLAY',
-      `Display \`${display}\` is not valid for font \`${fontFamily}\`.\nAvailable display values: ${formatValues(
-        displayValues
-      )}`
-    );
-  }
-
   return {
     fontFamily,
     weights,
     styles,
-    display,
-    subsets,
   };
 };

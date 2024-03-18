@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@react-native/eslint-config": "^0.72.1",
+    "@types/node": "^20.11.5",
+    "esbuild": "^0.17.11",
+    "eslint": "^8.35.0",
+    "prettier": "^2.5.1",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "prepare": "yarn generate && prettier --write ./build/index.js",
+    "generate": "yarn tsc && yarn bundle && yarn format && yarn clean",
+    "clean": "del-cli lib",
+    "bundle": "esbuild ./lib/index.js --bundle --external:@babel --external:convert-source-map --external:fs --external:'../../package.json' --log-level=warning --platform=node --sourcemap=linked --outfile=build/index.js",
+    "format": "prettier --write --list-different **/*.ts",
+    "watch": "tsc-watch --onSuccess \"yarn bundle\"",
+    "lint": "eslint --max-warnings=0 --ext .ts .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "react-native-asset": "^2.1.1"
+  }
+}

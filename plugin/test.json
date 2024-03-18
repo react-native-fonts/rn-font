@@ -1,0 +1,272 @@
+[
+  {
+    "type": "ObjectExpression",
+    "properties": [
+      {
+        "type": "ObjectProperty",
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "name": "weight",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 4,
+              "index": 152
+            },
+            "end": {
+              "line": 7,
+              "column": 10,
+              "index": 158
+            },
+            "identifierName": "weight"
+          }
+        },
+        "value": {
+          "type": "ArrayExpression",
+          "elements": [
+            {
+              "type": "StringLiteral",
+              "value": "400",
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 13,
+                  "index": 161
+                },
+                "end": {
+                  "line": 7,
+                  "column": 18,
+                  "index": 166
+                }
+              },
+              "extra": {
+                "rawValue": "400",
+                "raw": "'400'"
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 12,
+              "index": 160
+            },
+            "end": {
+              "line": 7,
+              "column": 19,
+              "index": 167
+            }
+          }
+        },
+        "shorthand": false,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 4,
+            "index": 152
+          },
+          "end": {
+            "line": 7,
+            "column": 19,
+            "index": 167
+          }
+        }
+      },
+      {
+        "type": "ObjectProperty",
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "name": "style",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 4,
+              "index": 173
+            },
+            "end": {
+              "line": 8,
+              "column": 9,
+              "index": 178
+            },
+            "identifierName": "style"
+          }
+        },
+        "value": {
+          "type": "StringLiteral",
+          "value": "normal",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 11,
+              "index": 180
+            },
+            "end": {
+              "line": 8,
+              "column": 19,
+              "index": 188
+            }
+          },
+          "extra": {
+            "rawValue": "normal",
+            "raw": "'normal'"
+          }
+        },
+        "shorthand": false,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 4,
+            "index": 173
+          },
+          "end": {
+            "line": 8,
+            "column": 19,
+            "index": 188
+          }
+        }
+      },
+      {
+        "type": "ObjectProperty",
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "name": "display",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 4,
+              "index": 194
+            },
+            "end": {
+              "line": 9,
+              "column": 11,
+              "index": 201
+            },
+            "identifierName": "display"
+          }
+        },
+        "value": {
+          "type": "StringLiteral",
+          "value": "swap",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 13,
+              "index": 203
+            },
+            "end": {
+              "line": 9,
+              "column": 19,
+              "index": 209
+            }
+          },
+          "extra": {
+            "rawValue": "swap",
+            "raw": "'swap'"
+          }
+        },
+        "shorthand": false,
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 4,
+            "index": 194
+          },
+          "end": {
+            "line": 9,
+            "column": 19,
+            "index": 209
+          }
+        }
+      },
+      {
+        "type": "ObjectProperty",
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "name": "subsets",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 4,
+              "index": 215
+            },
+            "end": {
+              "line": 10,
+              "column": 11,
+              "index": 222
+            },
+            "identifierName": "subsets"
+          }
+        },
+        "value": {
+          "type": "ArrayExpression",
+          "elements": [
+            {
+              "type": "StringLiteral",
+              "value": "latin",
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 14,
+                  "index": 225
+                },
+                "end": {
+                  "line": 10,
+                  "column": 21,
+                  "index": 232
+                }
+              },
+              "extra": {
+                "rawValue": "latin",
+                "raw": "'latin'"
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 13,
+              "index": 224
+            },
+            "end": {
+              "line": 10,
+              "column": 22,
+              "index": 233
+            }
+          }
+        },
+        "shorthand": false,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 4,
+            "index": 215
+          },
+          "end": {
+            "line": 10,
+            "column": 22,
+            "index": 233
+          }
+        }
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 6,
+        "column": 22,
+        "index": 146
+      },
+      "end": {
+        "line": 11,
+        "column": 3,
+        "index": 238
+      }
+    },
+    "extra": {
+      "trailingComma": 233
+    }
+  }
+]
