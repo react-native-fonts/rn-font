@@ -9,8 +9,10 @@
   "source": "src/index",
   "files": [
     "src",
+    "fonts",
     "plugin/build/index.js",
     "plugin/index.js",
+    "plugin/fontsOptions",
     "lib",
     "android",
     "ios",

@@ -1,6 +1,7 @@
 import type { NodePath } from '@babel/core';
 import type { ImportDeclaration } from '@babel/types';
 import path from 'path';
+import { isLibraryExample } from './isLibraryExample';
 
 export const getImportedFontNames = (
   nodePath: NodePath<ImportDeclaration>,
@@ -10,7 +11,7 @@ export const getImportedFontNames = (
 
   const isReactNativeFonts =
     sourceValue ===
-    (process.env.BABEL_ENV === 'development'
+    (isLibraryExample
       ? path.join(__dirname, '../../src/index')
       : 'react-native-font-manager');
 

@@ -10,6 +10,7 @@ import {
   fontDownload,
 } from './';
 import { fontPath } from '../font-paths';
+import { isLibraryExample } from '../isLibraryExample';
 
 export default async function fontProcessor() {
   const fontAxesFilesPath = readFontOptionsFilesPath();
@@ -35,7 +36,7 @@ export default async function fontProcessor() {
 
   fontDownload(fontDownloadUrls, fontPath, () => {
     exec(
-      process.env.BABEL_ENV === 'development'
+      isLibraryExample
         ? 'npx react-native-asset -a ../fonts'
         : 'npx react-native-asset -a ./node_modules/react-native-font-manager/fonts',
       (err) => {
