@@ -1,6 +1,6 @@
 {
   "name": "react-native-font-manager",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "fonts for RN",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
