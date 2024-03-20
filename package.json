@@ -43,14 +43,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-fonts/fonts.git"
+    "url": "git+https://github.com/react-native-fonts/react-native-font-manager.git"
   },
   "author": "react-native-fonts <moskalakamil07@gmail.com> (https://github.com/react-native-fonts)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-fonts/fonts/issues"
+    "url": "https://github.com/react-native-fonts/react-native-font-manager/issues"
   },
-  "homepage": "https://github.com/react-native-fonts/fonts#readme",
+  "homepage": "https://github.com/react-native-fonts/react-native-font-manager#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
