@@ -1,4 +1,4 @@
-# @react-native-fonts/rn-font
+# react-native-font-manager
 **A React Native library that makes using fonts in RN much easier.**
 <br/>
 With one import you can use a font from Google Fonts or use your own font from a file. Without having to worry about linking or downloading a font from Google Fonts
