@@ -1,6 +1,6 @@
 {
   "name": "react-native-font-manager",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "fonts for RN",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -9,7 +9,6 @@
   "source": "src/index",
   "files": [
     "src",
-    "plugin",
     "plugin/build/index.js",
     "plugin/index.js",
     "lib",
@@ -95,6 +94,7 @@
     "preset": "react-native",
     "modulePathIgnorePatterns": [
       "<rootDir>/example/node_modules",
+      "<rootDir>/plugin/node_modules",
       "<rootDir>/lib/"
     ]
   },
@@ -141,6 +141,7 @@
   },
   "eslintIgnore": [
     "node_modules/",
+    "plugin/node_modules/",
     "lib/"
   ],
   "prettier": {
