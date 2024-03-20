@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-fonts/fonts",
+  "name": "react-native-font-manager",
   "version": "0.1.0",
   "description": "fonts for RN",
   "main": "lib/commonjs/index",
@@ -163,5 +163,9 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }

@@ -6,12 +6,12 @@ With one import you can use a font from Google Fonts or use your own font from a
 ## Installation
 
 ```sh
-npm install @react-native-fonts/fonts # or yarn add @react-native-fonts/fonts
+npm install react-native-font-manager # or yarn add react-native-font-manager
 ```
  <br/>
- 
+
 > [!CAUTION]
-> ### Add *@react-native-fonts/fonts* plugin inside ```babel.config.js``` 
+> ### Add *react-native-font-manager* plugin inside ```babel.config.js```
 
 ```js
 module.exports = function (api) {
@@ -21,7 +21,7 @@ module.exports = function (api) {
     // ...
     plugins: [
       // ...
-      "@react-native-fonts/fonts/plugin"
+      "react-native-font-manager/plugin"
     ],
   };
 };
@@ -31,7 +31,7 @@ module.exports = function (api) {
 You can just use font from google fonts by using the following code:
 ```tsx
 // ...
-import { useInter, usePoppins } from '@react-native-fonts/fonts';
+import { useInter, usePoppins } from 'react-native-font-manager';
 
 export default function App() {
   const { fontFamily } = useInter({
@@ -57,7 +57,7 @@ export default function App() {
 If you want to use local fonts, you can use the following code:
 ```tsx
 // ...
-import { useLocalFont } from '@react-native-fonts/fonts';
+import { useLocalFont } from 'react-native-font-manager';
 
 export default function App() {
   const { fontFamily } = useLocalFont({

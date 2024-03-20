@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import Comp from './src/Comp';
-import {useAbel} from '@react-native-fonts/fonts';
+import {useAbel} from 'react-native-font-manager';
 
 export default function App() {
   const {} = useAbel({

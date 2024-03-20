@@ -12,7 +12,7 @@ export const getImportedFontNames = (
     sourceValue ===
     (process.env.BABEL_ENV === 'development'
       ? path.join(__dirname, '../../src/index')
-      : '@react-native-fonts/fonts');
+      : 'react-native-font-manager');
 
   if (isReactNativeFonts) {
     nodePath.node.specifiers?.forEach((specifier) => {
