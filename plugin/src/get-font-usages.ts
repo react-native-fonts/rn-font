@@ -2,6 +2,7 @@ import type { NodePath } from '@babel/core';
 import type {
   CallExpression,
   ArgumentPlaceholder as BabelArgumentPlaceholder,
+  Identifier,
 } from '@babel/types';
 import type { Font, FontOptions } from './types';
 
@@ -32,8 +33,10 @@ export const getFontUsages = (
   const callee = nodePath.get('callee');
 
   if (!callee.isIdentifier()) return;
+
+  const correctedTypeCallee = callee as NodePath<Identifier>;
   // validate if the function is a font usage
-  if (!importedFonts.includes(callee.node.name.slice(3))) return;
+  if (!importedFonts.includes(correctedTypeCallee.node.name.slice(3))) return;
 
   const babelArguments = nodePath.node?.arguments as ArgumentPlaceholder[];
 
@@ -51,7 +54,7 @@ export const getFontUsages = (
 
   value.style = value.style || ['normal'];
 
-  const fontName = callee.node.name.slice(3);
+  const fontName = correctedTypeCallee.node.name.slice(3);
   if (!fontUsages[fontName]) {
     fontUsages[fontName] = {
       weight: typeof value?.weight === 'string' ? [value.weight] : value.weight,
