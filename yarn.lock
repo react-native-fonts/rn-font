@@ -11981,9 +11981,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-font-manager@workspace:.":
+"react-native-simple-fonts@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-font-manager@workspace:."
+  resolution: "react-native-simple-fonts@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-font-manager": ["./src/index"]
+      "react-native-simple-fonts": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

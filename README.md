@@ -1,17 +1,17 @@
-# react-native-font-manager
-**A React Native library that makes using fonts in RN much easier.**
+# react-native-simple-fonts
+**A React Native library that makes using fonts much easier.**
 <br/>
 With one import you can use a font from Google Fonts or use your own font from a file. Without having to worry about linking or downloading a font from Google Fonts
 
 ## Installation
 
 ```sh
-npm install react-native-font-manager # or yarn add react-native-font-manager
+npm install react-native-simple-fonts # or yarn add react-native-simple-fonts
 ```
  <br/>
 
 > [!CAUTION]
-> ### Add *react-native-font-manager* plugin inside ```babel.config.js```
+> ### Add *react-native-simple-fonts* plugin inside ```babel.config.js```
 
 ```js
 module.exports = function (api) {
@@ -21,7 +21,7 @@ module.exports = function (api) {
     // ...
     plugins: [
       // ...
-      "react-native-font-manager/plugin"
+      "react-native-simple-fonts/plugin"
     ],
   };
 };
@@ -31,7 +31,7 @@ module.exports = function (api) {
 You can just use font from google fonts by using the following code:
 ```tsx
 // ...
-import { useInter, usePoppins } from 'react-native-font-manager';
+import { useInter, usePoppins } from 'react-native-simple-fonts';
 
 export default function App() {
   const { fontFamily } = useInter({
@@ -57,7 +57,7 @@ export default function App() {
 If you want to use local fonts, you can use the following code:
 ```tsx
 // ...
-import { useLocalFont } from 'react-native-font-manager';
+import { useLocalFont } from 'react-native-simple-fonts';
 
 export default function App() {
   const { fontFamily } = useLocalFont({

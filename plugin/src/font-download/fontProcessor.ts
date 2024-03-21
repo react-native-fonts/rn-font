@@ -38,7 +38,7 @@ export default async function fontProcessor() {
     exec(
       isLibraryExample
         ? 'npx react-native-asset -a ../fonts'
-        : 'npx react-native-asset -a ./node_modules/react-native-font-manager/fonts',
+        : 'npx react-native-asset -a ./node_modules/react-native-simple-fonts/fonts',
       (err) => {
         if (err) {
           console.error(err);

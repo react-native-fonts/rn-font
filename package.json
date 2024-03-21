@@ -1,5 +1,5 @@
 {
-  "name": "react-native-font-manager",
+  "name": "react-native-simple-fonts",
   "version": "0.2.2",
   "description": "fonts for RN",
   "main": "lib/commonjs/index",
@@ -45,14 +45,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-fonts/react-native-font-manager.git"
+    "url": "git+https://github.com/react-native-fonts/react-native-simple-fonts.git"
   },
   "author": "react-native-fonts <moskalakamil07@gmail.com> (https://github.com/react-native-fonts)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-fonts/react-native-font-manager/issues"
+    "url": "https://github.com/react-native-fonts/react-native-simple-fonts/issues"
   },
-  "homepage": "https://github.com/react-native-fonts/react-native-font-manager#readme",
+  "homepage": "https://github.com/react-native-fonts/react-native-simple-fonts#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
