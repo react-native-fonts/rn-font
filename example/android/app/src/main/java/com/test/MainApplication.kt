@@ -36,6 +36,8 @@ class MainApplication : Application(), ReactApplication {
 
   override fun onCreate() {
     super.onCreate()
+
+	ReactFontManager.getInstance().addCustomFont(this, "Lora", R.font.lora)
 	ReactFontManager.getInstance().addCustomFont(this, "Abel", R.font.abel)
     SoLoader.init(this, false)
     if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {

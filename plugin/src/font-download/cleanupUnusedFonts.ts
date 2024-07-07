@@ -2,12 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import { getFontName, type Font } from './';
 import { getProjectPath, getRegisterFontText } from './android-xml-fonts';
+import fonts from '../../../src/font/google/font-data.json';
 
 export default function cleanupUnusedFonts(
   filePath: string,
   androidFilePath: string,
-  fontDownloadUrls: Font[],
-  usedFontNames: string[]
+  fontDownloadUrls: Font[]
 ) {
   const fontFiles = fs
     .readdirSync(filePath)
@@ -15,15 +15,11 @@ export default function cleanupUnusedFonts(
 
   fontFiles.forEach((font) => {
     // eg. "albert_sans"
-    const fontFixedName = font.replace(font.split('_').pop()!, '').slice(0, -1);
+    const fontFixedName = font.replace(font.split('.').pop()!, '').slice(0, -1);
     const fontInUse = fontDownloadUrls.find(
       (item) => fontFixedName === getFontName(item)
     );
-
-    // eg. "Albert Sans"
-    const fontName = usedFontNames.find(
-      (item) => item.toLowerCase().replaceAll(' ', '_') === fontFixedName
-    );
+    const fontName = fontFixedName.split('_')[0];
 
     if (!fontName) return;
 
@@ -34,9 +30,10 @@ export default function cleanupUnusedFonts(
         fs.unlinkSync(path.join(androidFilePath, font));
       }
 
-      if (fs.existsSync(path.join(androidFilePath, `${fontFixedName}.xml`))) {
-        fs.unlinkSync(path.join(androidFilePath, `${fontFixedName}.xml`));
+      if (fs.existsSync(path.join(androidFilePath, `${fontName}.xml`))) {
+        fs.unlinkSync(path.join(androidFilePath, `${fontName}.xml`));
 
+        //TODO: if rn version is < 0.73 then remove import from MainApplication.java
         const projectPath = getProjectPath('MainApplication.kt');
         if (!projectPath) return;
 
@@ -46,13 +43,17 @@ export default function cleanupUnusedFonts(
             return;
           }
 
+          const registerFontName = Object.keys(fonts).find(
+            (item) => item.toLowerCase().replaceAll(' ', '_') === fontName
+          );
+
+          if (!registerFontName) return;
+
+          console.log(registerFontName);
+
           fs.writeFile(
             projectPath,
-            data.replaceAll(
-              getRegisterFontText(fontName),
-              // getRegisterFontText(fontName).replace('\n', '')
-              ''
-            ),
+            data.replaceAll(getRegisterFontText(registerFontName), ''),
             'utf8',
             (err) => {
               if (err) {

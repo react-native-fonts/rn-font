@@ -4,6 +4,18 @@
     {
       "path": "../fonts/.gitkeep",
       "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "../fonts/abel_regular.ttf",
+      "sha1": "260d7d8387b6ef09074921f5ea66a5c68be48956"
+    },
+    {
+      "path": "../fonts/barlow_regular.ttf",
+      "sha1": "bcaece5a91cd64886126c3302d12591fecb70e9e"
+    },
+    {
+      "path": "../fonts/lora_regular.ttf",
+      "sha1": "6c19af6ddbd0de030ddb9d9699863614d5a74b59"
     }
   ]
 }
