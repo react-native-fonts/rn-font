@@ -1,1 +1,2 @@
-export * from './font/google/index';
+export * from './font/google/';
+export * from './font/custom/';

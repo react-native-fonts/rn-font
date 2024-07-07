@@ -20,6 +20,8 @@ export const getImportedFontNames = (
       const importedModule = specifier?.local?.name;
 
       if (importedModule.split('use').length > 1) {
+        if (importedModule.split('use')[1] === 'CustomFont') return;
+
         onNewImportedFont(importedModule.split('use')[1]!);
       }
     });

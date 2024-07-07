@@ -4,6 +4,10 @@
     {
       "path": "../fonts/.gitkeep",
       "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "../fonts/abel_regular.ttf",
+      "sha1": "260d7d8387b6ef09074921f5ea66a5c68be48956"
     }
   ]
 }
