@@ -1,16 +1,16 @@
 import * as React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import Comp from './src/Comp';
-import {useAbel} from 'react-native-simple-fonts';
+import {useAbyssinica_SIL} from 'react-native-simple-fonts';
 
 export default function App() {
-  const {} = useAbel({
+  const {} = useAbyssinica_SIL({
     weight: '400',
   });
 
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: 'Ojuju'}}>{'test123'}</Text>
+      <Text style={{fontFamily: 'Ojuju'}}>{'test123ma'}</Text>
       <Comp />
     </View>
   );

@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { fontOptionsPath } from '../font-paths';
 
+// get all the font options files path (from fontOptions folder)
 export default function readFontOptionsFilesPath() {
   const fontFilesPaths: string[] = [];
   const readDirectoryRecursively = (directoryPath: string) => {
@@ -22,6 +23,6 @@ export default function readFontOptionsFilesPath() {
   };
 
   readDirectoryRecursively(fontOptionsPath);
-
+  console.log(fontFilesPaths, 'fontFilesPaths');
   return fontFilesPaths;
 }

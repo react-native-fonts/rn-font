@@ -48,6 +48,12 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIAppFonts</key>
-	<array/>
+	<array>
+		<string>abel_regular.ttf</string>
+		<string>inter_regular.ttf</string>
+		<string>abyssinica_sil_regular.ttf</string>
+		<string>podkova_regular.ttf</string>
+		<string>acme_regular.ttf</string>
+	</array>
 </dict>
 </plist>

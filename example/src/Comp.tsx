@@ -1,10 +1,15 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import {useAcme} from 'react-native-simple-fonts';
 
 const Comp = () => {
+  const {} = useAcme({
+    weight: '400',
+    style: 'normal',
+  });
   return (
     <View>
-      <Text>abc41</Text>
+      <Text>test</Text>
     </View>
   );
 };

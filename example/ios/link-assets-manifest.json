@@ -4,6 +4,26 @@
     {
       "path": "../fonts/.gitkeep",
       "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "../fonts/abel_regular.ttf",
+      "sha1": "260d7d8387b6ef09074921f5ea66a5c68be48956"
+    },
+    {
+      "path": "../fonts/abyssinica_sil_regular.ttf",
+      "sha1": "774b4825b177a02cddba00dc3bba7619c1177b6d"
+    },
+    {
+      "path": "../fonts/acme_regular.ttf",
+      "sha1": "4ae84048bae599b7ef83129f16a55cd8353325af"
+    },
+    {
+      "path": "../fonts/inter_regular.ttf",
+      "sha1": "fb2cc7cb123e7d76e73540fc614234de21c82be5"
+    },
+    {
+      "path": "../fonts/podkova_regular.ttf",
+      "sha1": "adbaf0a3b3d3d179bc97a4c87937eb4c16c8c731"
     }
   ]
 }

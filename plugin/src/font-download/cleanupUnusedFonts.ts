@@ -1,30 +1,37 @@
 import fs from 'fs';
 import path from 'path';
-import { getFontName, type Font } from './';
 import { getProjectPath, getRegisterFontText } from './android-xml-fonts';
 
 export default function cleanupUnusedFonts(
   filePath: string,
   androidFilePath: string,
-  fontDownloadUrls: Font[],
   usedFontNames: string[]
 ) {
   const fontFiles = fs
     .readdirSync(filePath)
     .filter((item) => item !== '.gitkeep');
 
+  console.log(fontFiles, 'fontFiles');
+
   fontFiles.forEach((font) => {
     // eg. "albert_sans"
     const fontFixedName = font.replace(font.split('_').pop()!, '').slice(0, -1);
-    const fontInUse = fontDownloadUrls.find(
-      (item) => fontFixedName === getFontName(item)
-    );
 
     // eg. "Albert Sans"
-    const fontName = usedFontNames.find(
-      (item) => item.toLowerCase().replaceAll(' ', '_') === fontFixedName
-    );
+    const fontInUse = usedFontNames
+      .map((item) => item.toLowerCase().replaceAll(' ', '_'))
+      .includes(fontFixedName.toLowerCase().replaceAll(' ', '_'));
+    console.log(fontInUse, 'font in use', fontFixedName, usedFontNames);
+    console.log(fontFixedName, 'font fixed name');
+    console.log(usedFontNames, 'used font names');
 
+    if (fontInUse) return;
+
+    const fontName = usedFontNames.find(
+      (item) =>
+        item.toLowerCase().replaceAll(' ', '_') === fontFixedName.toLowerCase()
+    );
+    console.log(fontName, 'font name');
     if (!fontName) return;
 
     if (!fontInUse && fontFixedName) {

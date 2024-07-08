@@ -1,7 +1,7 @@
 import type { PluginObj, NodePath } from '@babel/core';
 import type { ImportDeclaration, CallExpression } from '@babel/types';
 import createFontOptionsFile from './font-options';
-import { getCompName } from './get-comp-name';
+import { getCompPath } from './get-comp-path';
 import { getImportedFontNames } from './get-imported-font-names';
 import { getFontUsages } from './get-font-usages';
 import fontProcessor from './font-download';
@@ -14,7 +14,12 @@ export default function (): PluginObj {
   return {
     visitor: {
       Program(_, state) {
-        getCompName(state, (compPath) => (filePath = compPath));
+        getCompPath({
+          state,
+          getComponentPath: (compPath) => {
+            filePath = compPath;
+          },
+        });
       },
       ImportDeclaration(nodePath: NodePath<ImportDeclaration>) {
         getImportedFontNames(nodePath, (font) => importedFonts.push(font));
@@ -22,6 +27,7 @@ export default function (): PluginObj {
       CallExpression: {
         enter(nodePath: NodePath<CallExpression>) {
           getFontUsages(nodePath, { fontUsages, importedFonts });
+          console.log('fontUsages', fontUsages);
         },
       },
     },

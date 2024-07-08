@@ -36,7 +36,14 @@ class MainApplication : Application(), ReactApplication {
 
   override fun onCreate() {
     super.onCreate()
+	ReactFontManager.getInstance().addCustomFont(this, "Acme", R.font.acme)
+	ReactFontManager.getInstance().addCustomFont(this, "Podkova", R.font.podkova)
+	ReactFontManager.getInstance().addCustomFont(this, "Abyssinica SIL", R.font.abyssinica_sil)
 	ReactFontManager.getInstance().addCustomFont(this, "Abel", R.font.abel)
+	ReactFontManager.getInstance().addCustomFont(this, "Inter", R.font.inter)
+
+
+
     SoLoader.init(this, false)
     if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
       // If you opted-in for the New Architecture, we load the native entry point for this app.

@@ -15,6 +15,11 @@
 		7699B88040F8A987B510C191 /* libPods-test-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-test-testTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		3B79510027094DEE9625B0D1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = CC77796BBC144F67AF9F359B /* .gitkeep */; };
+		AC21B6E88D554E22A8639DF8 /* abel_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE47BAAB08714C60BF5E3353 /* abel_regular.ttf */; };
+		6940A409FD3B445FB664725A /* inter_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 016CBB34D1124E1D9847F519 /* inter_regular.ttf */; };
+		69E20DE2739F4696AF936EFA /* abyssinica_sil_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 328F660533D34B85B604FF7B /* abyssinica_sil_regular.ttf */; };
+		6F6AA27C039B45538D3D6DAE /* podkova_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 177647DFBDC149A39456CA3C /* podkova_regular.ttf */; };
+		88293FA9F44649738E03A04A /* acme_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6340828E05A24308ABC5AC0F /* acme_regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-test-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-testTests.release.xcconfig"; path = "Target Support Files/Pods-test-testTests/Pods-test-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		CC77796BBC144F67AF9F359B /* .gitkeep */ = {isa = PBXFileReference; name = ".gitkeep"; path = "../../fonts/.gitkeep"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE47BAAB08714C60BF5E3353 /* abel_regular.ttf */ = {isa = PBXFileReference; name = "abel_regular.ttf"; path = "../../fonts/abel_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		016CBB34D1124E1D9847F519 /* inter_regular.ttf */ = {isa = PBXFileReference; name = "inter_regular.ttf"; path = "../../fonts/inter_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		328F660533D34B85B604FF7B /* abyssinica_sil_regular.ttf */ = {isa = PBXFileReference; name = "abyssinica_sil_regular.ttf"; path = "../../fonts/abyssinica_sil_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		177647DFBDC149A39456CA3C /* podkova_regular.ttf */ = {isa = PBXFileReference; name = "podkova_regular.ttf"; path = "../../fonts/podkova_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6340828E05A24308ABC5AC0F /* acme_regular.ttf */ = {isa = PBXFileReference; name = "acme_regular.ttf"; path = "../../fonts/acme_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,11 @@
 			isa = "PBXGroup";
 			children = (
 				CC77796BBC144F67AF9F359B /* .gitkeep */,
+				AE47BAAB08714C60BF5E3353 /* abel_regular.ttf */,
+				016CBB34D1124E1D9847F519 /* inter_regular.ttf */,
+				328F660533D34B85B604FF7B /* abyssinica_sil_regular.ttf */,
+				177647DFBDC149A39456CA3C /* podkova_regular.ttf */,
+				6340828E05A24308ABC5AC0F /* acme_regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -256,6 +271,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3B79510027094DEE9625B0D1 /* .gitkeep in Resources */,
+				AC21B6E88D554E22A8639DF8 /* abel_regular.ttf in Resources */,
+				6940A409FD3B445FB664725A /* inter_regular.ttf in Resources */,
+				69E20DE2739F4696AF936EFA /* abyssinica_sil_regular.ttf in Resources */,
+				6F6AA27C039B45538D3D6DAE /* podkova_regular.ttf in Resources */,
+				88293FA9F44649738E03A04A /* acme_regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

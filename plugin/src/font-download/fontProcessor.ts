@@ -23,12 +23,7 @@ export default async function fontProcessor() {
     'android/app/src/main/res/font'
   );
 
-  cleanupUnusedFonts(
-    fontPath,
-    androidFilePath,
-    fontDownloadUrls,
-    Object.keys(fontAxesFilesPath)
-  );
+  cleanupUnusedFonts(fontPath, androidFilePath, Object.keys(parsedFontValues));
 
   fontDownload(fontDownloadUrls, androidFilePath, () => {
     createDefinitionFile(parsedFontValues);
