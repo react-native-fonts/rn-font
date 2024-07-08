@@ -5,6 +5,7 @@ import { getCompName } from './get-comp-name';
 import { getImportedFontNames } from './get-imported-font-names';
 import { getFontUsages } from './get-font-usages';
 import fontProcessor from './font-download';
+import { getFontSource } from './custom-font';
 
 export default function (): PluginObj {
   const importedFonts: string[] = [];
@@ -22,6 +23,7 @@ export default function (): PluginObj {
       CallExpression: {
         enter(nodePath: NodePath<CallExpression>) {
           getFontUsages(nodePath, { fontUsages, importedFonts });
+          getFontSource(nodePath);
         },
       },
     },

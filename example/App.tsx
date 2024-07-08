@@ -9,8 +9,7 @@ export default function App() {
   });
 
   const {fontFamily} = useCustomFont({
-    source: './assets/fonts/Ojuju-Regular.ttf',
-    fontName: 'Ojuju',
+    source: './assets/fonts/Prata-Regular.ttf',
   });
 
   React.useEffect(() => {
@@ -19,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontFamily: 'Ojuju'}}>{'test123'}</Text>
+      <Text style={{fontFamily: 'Ojuju '}}>{'test123'}</Text>
       <Comp />
     </View>
   );
