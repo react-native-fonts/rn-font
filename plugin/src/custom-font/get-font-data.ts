@@ -1,7 +1,8 @@
 import type { NodePath } from '@babel/core';
 import type { CallExpression } from '@babel/types';
+import { prepareFont } from './prepare-font';
 
-export const getFontSource = (nodePath: NodePath<CallExpression>) => {
+export const getFontData = (nodePath: NodePath<CallExpression>) => {
   const callee = nodePath.get('callee');
 
   if (callee.isIdentifier({ name: 'useCustomFont' })) {
@@ -24,7 +25,11 @@ export const getFontSource = (nodePath: NodePath<CallExpression>) => {
     const properties = firstArg.node.properties as any[];
     const source = properties.find((prop) => prop.key.name === 'source').value
       .value;
+    const name = properties.find((prop) => prop.key.name === 'name').value
+      .value;
 
-    console.log('source', source);
+    console.log('name', name);
+
+    prepareFont(source, name);
   }
 };

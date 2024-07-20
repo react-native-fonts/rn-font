@@ -1,3 +1,5 @@
-export const prepareFont = async (fontPath: string) => {
-  console.log(fontPath);
+import { downloadFont } from './';
+
+export const prepareFont = (fontPath: string, fontName: string | undefined) => {
+  downloadFont(fontPath, fontName);
 };

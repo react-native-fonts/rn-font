@@ -1,2 +1,4 @@
 export { prepareFont } from './prepare-font';
-export { getFontSource } from './get-font-source';
+export { getFontData } from './get-font-data';
+export { downloadFont } from './download-font';
+export { registerFont } from './register-font';

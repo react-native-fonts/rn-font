@@ -2,7 +2,6 @@ import type { NodePath } from '@babel/core';
 import type { ImportDeclaration } from '@babel/types';
 import path from 'path';
 import { isLibraryExample } from './isLibraryExample';
-import { prepareFont } from './custom-font';
 
 export const getImportedFontNames = (
   nodePath: NodePath<ImportDeclaration>,
@@ -21,9 +20,8 @@ export const getImportedFontNames = (
       const importedModule = specifier?.local?.name;
 
       if (importedModule.split('use').length > 1) {
-        if (importedModule.split('use')[1] === 'CustomFont')
-          prepareFont('test');
-        else onNewImportedFont(importedModule.split('use')[1]!);
+        if (importedModule.split('use')[1] === 'CustomFont') return;
+        onNewImportedFont(importedModule.split('use')[1]!);
       }
     });
   }
