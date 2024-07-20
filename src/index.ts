@@ -1,1 +1,1 @@
-export * from './font/google/index';
+export * from './features/google-fonts/index';

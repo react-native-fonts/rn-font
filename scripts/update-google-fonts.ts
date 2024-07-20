@@ -69,11 +69,11 @@ const formatUnion = (values: string[]) =>
 
   await Promise.all([
     fs.writeFile(
-      path.join(__dirname, '../src/font/google/index.ts'),
+      path.join(__dirname, '../src/font/google-fonts/index.ts'),
       fontTypes
     ),
     fs.writeFile(
-      path.join(__dirname, '../src/font/google/font-data.json'),
+      path.join(__dirname, '../src/font/google-fonts/font-data.json'),
       JSON.stringify(fontData)
     ),
   ]);

@@ -1,30 +1,31 @@
 import { googleFontsMetadata } from './google-fonts-metadata';
-import { formatValues } from './formatValues';
+import { formatValues } from './format-values';
 import fontData from './font-data.json';
 import { FontError } from '../../errors/FontError';
+import type { FontData } from '../../types';
 
 type ValidateGoogleFontResult = {
-  fontFamily: keyof typeof fontData;
+  fontName: keyof typeof fontData;
   weights: string[];
   styles: string[];
 };
 
 export const validateGoogleFont = <T>(
-  fontName: string,
-  fontOptions: T
+  args: FontData<T>
 ): ValidateGoogleFontResult => {
-  let { weight, style = 'normal' } = fontOptions as any;
+  const { fontFamily, options } = args;
+  let { weight, style = 'normal' } = options as any;
 
-  if (fontName === '') {
+  if (fontFamily === '') {
     FontError('FONT_NAME', 'Please specify a font name');
   }
 
-  const fontFamily = fontName.replace('_', ' ') as keyof typeof fontData;
+  const fontName = fontFamily.replace('_', ' ') as keyof typeof fontData;
 
-  const fontFamilyData = googleFontsMetadata[fontFamily];
+  const fontFamilyData = googleFontsMetadata[fontName];
 
   if (!fontFamilyData) {
-    FontError('FONT_FAMILY', `Font \`${fontFamily}\` is not recognized`);
+    FontError('FONT_FAMILY', `Font \`${fontName}\` is not recognized`);
   }
 
   const fontWeights = fontFamilyData?.weights;
@@ -72,7 +73,7 @@ export const validateGoogleFont = <T>(
   });
 
   return {
-    fontFamily,
+    fontName,
     weights,
     styles,
   };

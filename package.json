@@ -36,7 +36,7 @@
     "clean": "del-cli lib",
     "prepare": "bob build",
     "release": "release-it",
-    "update-google-fonts": "tsx scripts/update-google-fonts.ts && prettier --write src/font/google/index.ts && prettier --write src/font/google/font-data.json"
+    "update-google-fonts": "tsx scripts/update-google-fonts.ts && prettier --write src/features/google-fonts/index.ts && prettier --write src/font/google-fonts/font-data.json"
   },
   "keywords": [
     "react-native",
