@@ -21,6 +21,9 @@
 		6F6AA27C039B45538D3D6DAE /* podkova_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 177647DFBDC149A39456CA3C /* podkova_regular.ttf */; };
 		88293FA9F44649738E03A04A /* acme_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6340828E05A24308ABC5AC0F /* acme_regular.ttf */; };
 		15AFF288A5BC4971A300957B /* ojuju_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191594193C8E4A8BA2C7F8D6 /* ojuju_regular.ttf */; };
+		F9DF719BCECD4843B18DAB01 /* alef_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F64A219C94CBCB1CC54EE /* alef_regular.ttf */; };
+		E2EE85E2C1C848AA9707A485 /* lobster_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71C1253218046E2A5F05EAE /* lobster_regular.ttf */; };
+		E4B4EAF278504B8295FCF345 /* monoton_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4802C6D99BC9437CB9576EA8 /* monoton_regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		177647DFBDC149A39456CA3C /* podkova_regular.ttf */ = {isa = PBXFileReference; name = "podkova_regular.ttf"; path = "../../fonts/podkova_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6340828E05A24308ABC5AC0F /* acme_regular.ttf */ = {isa = PBXFileReference; name = "acme_regular.ttf"; path = "../../fonts/acme_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		191594193C8E4A8BA2C7F8D6 /* ojuju_regular.ttf */ = {isa = PBXFileReference; name = "ojuju_regular.ttf"; path = "../../fonts/ojuju_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D6F64A219C94CBCB1CC54EE /* alef_regular.ttf */ = {isa = PBXFileReference; name = "alef_regular.ttf"; path = "../../fonts/alef_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C71C1253218046E2A5F05EAE /* lobster_regular.ttf */ = {isa = PBXFileReference; name = "lobster_regular.ttf"; path = "../../fonts/lobster_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4802C6D99BC9437CB9576EA8 /* monoton_regular.ttf */ = {isa = PBXFileReference; name = "monoton_regular.ttf"; path = "../../fonts/monoton_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +179,9 @@
 				177647DFBDC149A39456CA3C /* podkova_regular.ttf */,
 				6340828E05A24308ABC5AC0F /* acme_regular.ttf */,
 				191594193C8E4A8BA2C7F8D6 /* ojuju_regular.ttf */,
+				6D6F64A219C94CBCB1CC54EE /* alef_regular.ttf */,
+				C71C1253218046E2A5F05EAE /* lobster_regular.ttf */,
+				4802C6D99BC9437CB9576EA8 /* monoton_regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -280,6 +289,9 @@
 				6F6AA27C039B45538D3D6DAE /* podkova_regular.ttf in Resources */,
 				88293FA9F44649738E03A04A /* acme_regular.ttf in Resources */,
 				15AFF288A5BC4971A300957B /* ojuju_regular.ttf in Resources */,
+				F9DF719BCECD4843B18DAB01 /* alef_regular.ttf in Resources */,
+				E2EE85E2C1C848AA9707A485 /* lobster_regular.ttf in Resources */,
+				E4B4EAF278504B8295FCF345 /* monoton_regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

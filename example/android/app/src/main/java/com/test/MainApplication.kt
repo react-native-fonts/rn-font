@@ -36,6 +36,9 @@ class MainApplication : Application(), ReactApplication {
 
   override fun onCreate() {
     super.onCreate()
+	ReactFontManager.getInstance().addCustomFont(this, "Monoton", R.font.monoton)
+	ReactFontManager.getInstance().addCustomFont(this, "Lobster", R.font.lobster)
+	ReactFontManager.getInstance().addCustomFont(this, "Alef", R.font.alef)
 	ReactFontManager.getInstance().addCustomFont(this, "Ojuju", R.font.ojuju)
 	ReactFontManager.getInstance().addCustomFont(this, "Acme", R.font.acme)
 	ReactFontManager.getInstance().addCustomFont(this, "Podkova", R.font.podkova)

@@ -1,25 +1,21 @@
 import type { PluginObj, NodePath } from '@babel/core';
 import type { ImportDeclaration, CallExpression } from '@babel/types';
-import createFontOptionsFile from './font-options';
-import { getCompPath } from './get-comp-path';
-import { getImportedFontNames } from './get-imported-font-names';
-import { getFontUsages } from './get-font-usages';
-import fontProcessor from './font-download';
+import { getFilePath } from './google/utils/get-file-path';
+import { getImportedFontNames } from './google/watcher/get-imported-font-names';
+import { getFontUsages } from './google/watcher/get-font-usages';
+import createFontOptionsFile from './google/watcher/font-options';
+import fontProcessor from './google/downloader';
 
 export default function (): PluginObj {
-  const importedFonts: string[] = [];
+  let filePath = '';
+
+  let importedFonts: string[] = [];
   let fontUsages: any = {};
-  let filePath: string = '';
 
   return {
     visitor: {
       Program(_, state) {
-        getCompPath({
-          state,
-          getComponentPath: (compPath) => {
-            filePath = compPath;
-          },
-        });
+        filePath = getFilePath(state);
       },
       ImportDeclaration(nodePath: NodePath<ImportDeclaration>) {
         getImportedFontNames(nodePath, (font) => importedFonts.push(font));
@@ -27,7 +23,6 @@ export default function (): PluginObj {
       CallExpression: {
         enter(nodePath: NodePath<CallExpression>) {
           getFontUsages(nodePath, { fontUsages, importedFonts });
-          console.log('fontUsages', fontUsages);
         },
       },
     },
@@ -38,8 +33,6 @@ export default function (): PluginObj {
       } catch (err) {
         console.error(err);
       }
-
-      fontUsages = {};
     },
   };
 }

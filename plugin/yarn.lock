@@ -2990,7 +2990,7 @@ __metadata:
   linkType: hard
 
 "root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
+  version: 0.0.0-use.local-fonts
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@react-native/eslint-config": ^0.72.1

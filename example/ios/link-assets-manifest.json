@@ -18,8 +18,20 @@
       "sha1": "4ae84048bae599b7ef83129f16a55cd8353325af"
     },
     {
+      "path": "../fonts/alef_regular.ttf",
+      "sha1": "00fe8f511c81ef627765d9193b2a3760ada23b25"
+    },
+    {
       "path": "../fonts/inter_regular.ttf",
       "sha1": "fb2cc7cb123e7d76e73540fc614234de21c82be5"
+    },
+    {
+      "path": "../fonts/lobster_regular.ttf",
+      "sha1": "42cb9e7e75f8523c3b3bf938b9a2b07bc6886eba"
+    },
+    {
+      "path": "../fonts/monoton_regular.ttf",
+      "sha1": "b1b046ff80fe07daf52ef80e0346f41a5bc3f453"
     },
     {
       "path": "../fonts/ojuju_regular.ttf",

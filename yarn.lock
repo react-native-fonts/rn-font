@@ -11982,7 +11982,7 @@ __metadata:
   linkType: hard
 
 "react-native-simple-fonts@workspace:.":
-  version: 0.0.0-use.local
+  version: 0.0.0-use.local-fonts
   resolution: "react-native-simple-fonts@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
@@ -13534,7 +13534,7 @@ __metadata:
   linkType: hard
 
 "test@workspace:example":
-  version: 0.0.0-use.local
+  version: 0.0.0-use.local-fonts
   resolution: "test@workspace:example"
   dependencies:
     "@babel/core": ^7.20.0
